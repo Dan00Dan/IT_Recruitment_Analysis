@@ -69,7 +69,7 @@ Nhấp chuột phải vào bảng `fact_job_postings` > chọn **New measure**:
 
 ---
 
-## 5. Thiết kế các biểu đồ (Tham khảo ảnh mẫu `reports/dashboard_mockup.png`)
+## 5. Thiết kế các biểu đồ Dashboard
 
 ### 1. Bốn thẻ Card ở hàng trên:
 * **Card 1:** `[Tổng Tin Tuyển Dụng]` (Kết quả: 4.207 tin)
@@ -100,3 +100,4 @@ Nhấp chuột phải vào bảng `fact_job_postings` > chọn **New measure**:
 * **Visual:** **Donut chart**.
 * **Legend:** Kéo `dim_city[city_name]`.
 * **Values:** Kéo measure `[Tổng Tin Tuyển Dụng]`.
+

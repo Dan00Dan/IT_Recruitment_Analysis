@@ -7,24 +7,42 @@ Thiết kế lũy đẳng (Idempotent): Mỗi lần chạy sẽ xóa sạch bả
 và nạp lại toàn bộ dữ liệu mới, đảm bảo không bao giờ bị trùng lặp.
 """
 import os
+import re
 import sqlite3
 import pandas as pd
 import numpy as np
 
 
+def _impute_missing_dates(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Bù khuyết ngày đăng cho các nguồn không có ngày (TopCV, JobDescriptions)
+    dựa trên dải ngày thu thập thực tế (2025-10-22 đến 2025-12-10).
+    Cố định seed=42 để đảm bảo tính lũy đẳng (chạy lại luôn ra kết quả y hệt).
+    """
+    df = df.copy()
+    known_dates = df["post_date"].dropna()
+    if len(known_dates) == 0:
+        start_date, end_date = "2025-10-22", "2025-12-10"
+    else:
+        start_date, end_date = known_dates.min(), known_dates.max()
+
+    date_pool = pd.date_range(start=start_date, end=end_date, freq="D").strftime("%Y-%m-%d").values
+    missing_mask = df["post_date"].isna()
+    if missing_mask.any():
+        rng = np.random.RandomState(42)
+        df.loc[missing_mask, "post_date"] = rng.choice(date_pool, size=missing_mask.sum())
+    return df
+
+
 def _build_dim_date(df: pd.DataFrame) -> pd.DataFrame:
     """
     Tạo bảng chiều DIM_DATE từ cột post_date.
-    Nếu thiếu ngày, sinh ngày giả dựa trên vùng dữ liệu đã biết.
     """
-    # Lấy các ngày duy nhất có giá trị
     dates_known = pd.to_datetime(df["post_date"].dropna().unique())
 
     if len(dates_known) == 0:
-        # Không có ngày nào -> tạo 1 ngày mặc định
         dates_known = pd.to_datetime(["2025-11-01"])
 
-    # Tạo chuỗi ngày liên tục bao phủ toàn bộ phạm vi dữ liệu
     date_range = pd.date_range(start=dates_known.min(), end=dates_known.max(), freq="D")
 
     dim_date = pd.DataFrame({
@@ -77,11 +95,10 @@ def _build_dim_company(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def _clean_skill_name(raw: str) -> str:
-    """Loại bỏ dấu ngoặc vuông, ngoặc đơn, khoảng trắng thừa khỏi tên kỹ năng."""
-    s = raw.strip()
-    # Xóa dấu ngoặc vuông và ngoặc đơn bao ngoài
-    s = s.strip("[]\'\"")
-    s = s.strip()
+    """Loại bỏ triệt để dấu ngoặc vuông, ngoặc đơn, nháy kép khỏi tên kỹ năng."""
+    s = str(raw).strip()
+    # Loại bỏ mọi ký tự [], '', ""
+    s = re.sub(r"[\[\]\'\"]+", "", s).strip()
     return s
 
 
@@ -118,12 +135,12 @@ def _build_fact_job_postings(
     company_lookup = dict(zip(dim_company["company_name"], dim_company["company_id"]))
 
     fact = pd.DataFrame({
-        "job_id": df["job_id"],
-        "date_id": df["post_date"].map(date_lookup),
-        "city_id": df["city"].map(city_lookup),
-        "role_id": df["role_category"].map(role_lookup),
-        "level_id": df["job_level"].map(level_lookup),
-        "company_id": df["company"].map(company_lookup),
+        "job_id": df["job_id"].astype(int),
+        "date_id": df["post_date"].map(date_lookup).astype(int),
+        "city_id": df["city"].map(city_lookup).astype(int),
+        "role_id": df["role_category"].map(role_lookup).astype(int),
+        "level_id": df["job_level"].map(level_lookup).astype(int),
+        "company_id": df["company"].map(company_lookup).astype(int),
         "salary_min": df["salary_min"],
         "salary_max": df["salary_max"],
         "salary_avg": df["salary_avg"],
@@ -171,7 +188,13 @@ def _build_fact_job_skills(
                 "salary_avg": row.get("salary_avg"),
             })
 
-    return pd.DataFrame(rows)
+    fact_skills = pd.DataFrame(rows)
+    fact_skills["job_id"] = fact_skills["job_id"].astype(int)
+    fact_skills["skill_id"] = fact_skills["skill_id"].astype(int)
+    fact_skills["date_id"] = fact_skills["date_id"].astype(int)
+    fact_skills["city_id"] = fact_skills["city_id"].astype(int)
+    fact_skills["role_id"] = fact_skills["role_id"].astype(int)
+    return fact_skills
 
 
 def load_to_warehouse(df_clean: pd.DataFrame, warehouse_dir: str) -> dict[str, pd.DataFrame]:
@@ -186,6 +209,9 @@ def load_to_warehouse(df_clean: pd.DataFrame, warehouse_dir: str) -> dict[str, p
     Trả về dict chứa toàn bộ các bảng Fact/Dim.
     """
     os.makedirs(warehouse_dir, exist_ok=True)
+
+    # ====== Bù khuyết ngày đăng cho 100% bản ghi ======
+    df_clean = _impute_missing_dates(df_clean)
 
     # ====== Xây dựng các bảng Dimension ======
     print("  -> Xây dựng bảng DIM_DATE...")

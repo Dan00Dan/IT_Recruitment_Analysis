@@ -1,2014 +1,1953 @@
 ﻿skill_id,skill_name
-1,&
-2,.NET
-3,.NET'] ['Microservices
-4,.Net
-5,.Net Core
-6,.Net'] ['Kubernetes
-7,10
-8,11
-9,11g
+1,.NET
+2,.NET 8
+3,.NET Core
+4,.NET Framework
+5,.NET MVC
+6,.NET framework
+7,.Net
+8,.Net 6+
+9,.Net Core
 10,1Password
-11,2
-12,2.0
-13,2018
-14,2019
-15,2021
-16,2022
-17,27001
-18,2D
-19,360
-20,365
-21,3D
-22,3ds
-23,3ds Max
-24,4
-25,6+
-26,8
-27,9001
-28,A-spice
-29,A/B
-30,A/B testing
-31,ABAP
-32,ABB
-33,ABL/4GL
-34,ACF
-35,AD
-36,ADAS
-37,ADC
-38,ADF
-39,ADO.NET
-40,AEM
-41,AFNetworking
-42,AI
-43,AI/ML
-44,AJAX
-45,AKKA
-46,AKS
-47,AM
-48,AMQP
-49,API
-50,APIs
-51,APL
-52,APM
-53,AR
-54,AR/VR
-55,ARM
-56,AS
-57,ASIC
-58,ASP.NET
-59,ASP.Net
+11,3D Game
+12,3D Max
+13,3D Modeling
+14,3ds Max
+15,A-spice
+16,A/B testing
+17,ABAP
+18,ABB
+19,ACF
+20,AD
+21,ADAS
+22,ADC
+23,ADF
+24,ADO.NET
+25,AEM
+26,AFNetworking
+27,AI
+28,AI Tools
+29,AI plugins
+30,AI tools
+31,AI-powered coding tools
+32,AI/ML
+33,AJAX
+34,AKKA
+35,AKS
+36,AM
+37,AMQP
+38,API
+39,API Design
+40,API Gateway
+41,API Management
+42,API Testing
+43,API automation testing
+44,API development
+45,API platform
+46,API testing
+47,APIs
+48,APL
+49,APM
+50,AR
+51,AR/VR
+52,ARM Toolchain
+53,ASIC
+54,ASP.NET
+55,ASP.NET Core
+56,ASP.NET MVC
+57,ASP.Net
+58,ASP.Net Core
+59,ASP.Net MVC
 60,ASPICE
 61,AUTOSAR
 62,AV
 63,AWS
-64,AWS CloudFormation
-65,AWS CodeArtifacts
-66,AWS Glue
-67,AWS Lambda
-68,Access
-69,Acronis
-70,Action
-71,Actions
-72,Active
-73,ActiveMQ
-74,Activiti
-75,AdMob
-76,Admob
-77,Adobe
-78,Adobe Illustrator
-79,Adobe Photoshop
-80,Adobe XD
-81,Ads
-82,After
-83,Agile
-84,Agile/Scrum
-85,Airbyte
-86,Airflow
-87,Airtable
-88,Ajax
-89,Alamofire
-90,Alembic
-91,Alerta
-92,Alfresco
-93,Algolia
-94,Algorithms
-95,Alto
-96,Amazon
-97,Amazon RDS
-98,Analysis
-99,Analyst
-100,Analytics
-101,Android
-102,Android studio
-103,Angular
-104,Angular.js
-105,AngularJS
-106,AngularJs
-107,Annie
-108,Ansible
-109,Ant
-110,AntDesign
-111,Antd
-112,Anti-DDoS
-113,Antivirus
-114,Anywhere
-115,Apache
-116,Apache Airflow
-117,Apache HttpClient
-118,Apache Spark
-119,Apache-Spark
-120,Apex
-121,Apex'] ['Salesforce
-122,Api
-123,Apollo
-124,App
-125,App Store Optimization
-126,AppDynamics
-127,Appium
-128,Apple
-129,Application
-130,Application Security
-131,Applitools
-132,Apps
-133,Arbitrum
-134,ArcGIS
-135,Arduino
-136,Argo
-137,ArgoCD
-138,ArtCAM
-139,Artifactory
-140,Aruba
-141,Asana
-142,AssetBundles
-143,Assurance
-144,Assured
-145,Asteria
-146,Asterisk
-147,Asynchronous Programming
-148,Atlassian
-149,Audio
-150,Aura'] ['Salesforce
-151,Aurora
-152,Auth0
-153,Autify
-154,Auto
-155,AutoCAD
-156,AutoCad
-157,AutoLayout
-158,Autocad
-159,Autofac
-160,Automate
-161,Automated
-162,Automation
-163,Automation Test
-164,Autonomous
-165,Autoruns
-166,Axios
-167,Axure
-168,Azure
-169,BDD
-170,BFGMiner
-171,BI
-172,BIM
-173,BLE
-174,BNB
-175,BPMN
-176,BRD
-177,BSP
-178,BTP
-179,BW/BO
-180,Babel
-181,Backbone
-182,Backend
-183,Backlog
-184,Backup
-185,Balancer
-186,Balancing
-187,Balsamiq
-188,Bash
-189,Bash Shell
-190,Bash'] ['Kubernetes
-191,Basic
-192,Beam
-193,Beaver
-194,Bedrock
-195,Behave
-196,Benchmarking
-197,Biases
-198,Big
-199,Big Data
-200,BigCommerce
-201,BigQuery
-202,BitLocker
-203,Bitbucket
-204,Bizagi
-205,Black
-206,Black box testing
-207,BlackDuck
-208,Blazor
-209,Blender
-210,Bloc
-211,Blockchain
-212,BloodHound
-213,Bluetooth
-214,Boomi
-215,Boost
-216,Boot
-217,Bootloader
-218,Bootstrap
-219,Box
-220,Bricks
-221,Bridge Engineer
-222,BrowserStack
-223,Bubble
-224,Bugzilla
-225,Build
-226,Builder
-227,BullMQ
-228,Burp
-229,Bus
-230,Business
-231,Business Analysis
-232,Business Intelligence
-233,BytePlus
-234,C
-235,C language
-236,C#
-237,C#'] ['Cocos2d-JS
-238,C#'] ['TensorFlow
-239,C++
-240,C++'] ['Automotive
-241,C++'] ['MATLAB/Simulink
-242,C++'] ['Microcontrollers
-243,C++'] ['Microservices
-244,C++'] ['TensorFlow
-245,C/C++
-246,C/C++'] ['TensorFlow
-247,CAD
-248,CAD/CAM
-249,CALS
-250,CAM
-251,CAN
-252,CANalyzer
-253,CANoe
-254,CAP
-255,CATIA
-256,CCNA
-257,CD
-258,CDN
-259,CDS
-260,CGMiner
-261,CI
-262,CI/CD
-263,CICD
-264,CISAM
-265,CISSP
-266,CLI
-267,CMAKE
-268,CMMI
-269,CMMi
-270,CMS
-271,CMake
-272,CNC
-273,COBIT
-274,COBOL
-275,CPI
-276,CREO
-277,CRM
-278,CSF/RMF
-279,CSS
-280,CSS 3
-281,CSS'] ['PostgreSQL
-282,CSS-in-JS
-283,CSS3
-284,CSV
-285,CUDA
-286,CURL
-287,CWE
-288,Cabling
-289,Caching
-290,Cacti
-291,Cad
-292,Caffe
-293,CakePHP
-294,Calendar
-295,CameraX
-296,Camunda
-297,Canva
-298,Canvas
-299,CapCut
-300,Carthage
-301,Cassandra
-302,Cat
-303,Celery
-304,CentOS
-305,Center
-306,Central
-307,Ceph
-308,Chai
-309,Chain
-310,Charles
-311,Charts
-312,ChatGPT
-313,Chatwork
-314,CheckPoint
-315,Chinese
-316,Chopper
-317,Ci/CD
-318,Cimatron
-319,Circle
-320,CircleCI
-321,CircleCi
-322,Cisco
-323,Citrix
-324,City
-325,Clean Architecture
-326,Clerk
-327,ClickHouse
-328,ClickUp
-329,Clickhouse
-330,Cloud
-331,Cloud Infrastructure
-332,Cloud Security
-333,Cloud Technologies
-334,Cloud-Native
-335,Cloud-native
-336,Cloud-native Architecture
-337,Cloud-native architectures
-338,Cloud-native solutions
-339,CloudFormation
-340,CloudWatch
-341,Cloudflare
-342,Cobalt
-343,CockroachDB
-344,CocoaLumberjack
-345,CocoaPods
-346,Cocoapods
-347,Cocos
-348,Cocos2d-x
-349,Cocos2dx
-350,Code
-351,CodeBuild
-352,CodeIgniter
-353,CodePipeline
-354,CodePush
-355,Codelgniter
-356,Cognito
-357,Combine
-358,Command
-359,CompTIA
-360,Complete
-361,Component
-362,Components
-363,Compose
-364,Compose Multiplatform
-365,Composer
-366,Computer
-367,Computer Vision
-368,Computing
-369,Config
-370,Configuration Manager
-371,Confluence
-372,Confluent
-373,Connect
-374,Console
-375,Container
-376,Container Security
-377,Containerization
-378,Containers
-379,Context
-380,Continuous
-381,Contracts
-382,Control
-383,Copilot
-384,Core
-385,CoreAnimation
-386,CoreData
-387,CoreML
-388,Corebank
-389,Corgi
-390,Coroutine
-391,Coroutines
-392,Cosmos
-393,Coverity
-394,Cpanel
-395,Crashlytics
-396,Creative
-397,Creator
-398,Cribl
-399,Crypto
-400,Cryptocurrency
-401,Cryptography
-402,Crystal
-403,Cucumber
-404,CucumberJS
-405,Cyber
-406,Cybersecurity
-407,Cybersecurity Engineering
-408,Cypress
-409,D365
-410,DASH
-411,DASHCAM
-412,DAST
-413,DApps
-414,DB
-415,DB2
-416,DBA
-417,DBT
-418,DBWeaver
-419,DDoS Protection
-420,DGL
-421,DHCP
-422,DL4J
-423,DLMS
-424,DLP
-425,DMS
-426,DNS
-427,DNS Security
-428,DOORs
-429,DRM
-430,DRP
-431,DSS
-432,Dapper
-433,Dart
-434,Data
-435,Data Analysis
-436,Data Engineer
-437,Data Privacy / Compliance
-438,Data Quality Tools
-439,Data Science
-440,Data Warehousing
-441,Data modeling
-442,Data visualization
-443,Data-driven
-444,DataOps
-445,Database
-446,Databricks
-447,Datadog
-448,Datastage
-449,Dataverse
-450,Davinci
-451,Dbt
-452,DeFi
-453,Debian
-454,Decentralized Applications
-455,Deep
-456,Deep Learning
-457,Delivery
-458,Dell
-459,Delta
-460,Dependency
-461,Deployment
-462,Design
-463,Design Systems
-464,DevExpress
-465,DevExtreme
-466,DevOps
-467,DevSecOps
-468,Developer
-469,Development
-470,Devices
-471,Devops
-472,Dialogflow
-473,Diffusion
-474,Digital tokens
-475,DigitalOcean
-476,Dio
-477,DirectAdmin
-478,DirectX
-479,Directory
-480,Divi
-481,Django
-482,Docker
-483,Domain
-484,Domain-Driven Design
-485,Draw.io
-486,Dremio
-487,Driven
-488,Driving
-489,Dropshipping
-490,Druid
-491,Drupal
-492,Dusk
-493,Dynamics
-494,DynamoDB
-495,Dynatrace
-496,E-commerce
-497,EBS
-498,ECR
-499,EDR
-500,EE
-501,EFK
-502,EJB
-503,EKS
-504,ELK
-505,ELK/Loki
-506,ELT
-507,ELV
-508,ENS
-509,EPP
-510,ERP
-511,ES6
-512,ESLint
-513,ESP-IDF
-514,ESP32
-515,ESXi
-516,ETAS
-517,ETL
-518,EVM
-519,Eclipse
-520,Edge
-521,Effects
-522,ElastiCache
-523,Elastic
-524,ElasticSearch
-525,Elasticsearch
-526,Electron
-527,Electron.js
-528,ElectronJs
-529,Element
-530,Elementor
-531,Elements
-532,Elixir
-533,Email
-534,Embedded
-535,Embedded Android
-536,Embedded C
-537,Emulate3D
-538,Encryption
-539,Encryption Key Management
-540,End-to-end
-541,Endpoint
-542,Engine
-543,Engineer
-544,English
-545,Enterprise Architecture
-546,Entity
-547,Entity Framework
-548,Entity Framework Core
-549,Entra
-550,Enzyme
-551,Epicor
-552,Eplan
-553,Eslint
-554,Espresso
-555,Ether
-556,Ethereum
-557,Ethernet
-558,Ethers.js
-559,Event
-560,Event-Driven Architecture
-561,Event-driven architecture
-562,Excel
-563,Exchange
-564,Expo
-565,Express
-566,Express.js
-567,ExpressJS
-568,ExpressJs
-569,EyeShot
-570,F#
-571,FAISS
-572,FFMPEG
-573,FFmpeg
-574,FME
-575,FOTA
-576,FRS
-577,FW
-578,Fabric
-579,Face
-580,Facebook
-581,Facial
-582,Factory
-583,Faktory
-584,Fanuc
-585,Fast
-586,FastAPI
-587,Fastlane
-588,Fiber
-589,Figma
-590,File
-591,Fiori
-592,FireBase
-593,Firebase
-594,Fireflies
-595,Firestore
-596,Firewall
-597,Firewalls
-598,Firmware
-599,FitNesse
-600,Flash
-601,Flask
-602,Flexbox
-603,Flexcube
-604,Flink
-605,Flow
-606,Flutter
-607,Flux
-608,Forest
-609,Forguncy
-610,Form
-611,Forms
-612,Fortify
-613,Fortigate
-614,Fortinet
-615,Forwarder
-616,Foundation
-617,Foundry
-618,Framework
-619,FreeIPA
-620,FreeRTOS
-621,French
-622,Frog
-623,Fullstack
-624,Functional
-625,Functional specifications
-626,Functions
-627,Fusion
-628,G
-629,G-code
-630,GA360
-631,GA4
-632,GAN
-633,GCD
-634,GCP
-635,GDB
-636,GIMP
-637,GIT
-638,GPO
-639,GRPC
-640,GStreamer
-641,Galaxy
-642,Game
-643,Game Development
-644,Games
-645,Gateway
-646,Gatsby
-647,Gcore
-648,Gemma
-649,GenAI
-650,Generative AI
-651,GeoPandas
-652,GeoServer
-653,Geoserver
-654,GetX
-655,Gherkin
-656,Gin
-657,Git
-658,GitHub
-659,GitHub Actions
-660,GitLab
-661,GitLab CI
-662,GitOps
-663,Github
-664,Gitlab
-665,Glue
-666,Go
-667,Go'] ['Blockchain
-668,Go'] ['Express.js
-669,Go'] ['Kubernetes
-670,Go'] ['Microservices
-671,Go'] ['PostgreSQL
-672,Go'] ['TensorFlow
-673,Godot
-674,Golang
-675,Golang'] ['Microservices
-676,Golang'] ['PostgreSQL
-677,GoldenGate
-678,Google
-679,Google BigQuery
-680,Google Cloud
-681,Google Cloud SQL
-682,GoogleAppScript
-683,Governance
-684,Gradio
-685,Gradle
-686,Grafana
-687,Grafana/Prometheus
-688,Grails
-689,Graph
-690,GraphQL
-691,Graphana
-692,Graphical
-693,Graylog
-694,Groovy
-695,Group
-696,Gulp
-697,HANA
-698,HAProxy
-699,HBase
-700,HDFS
-701,HFS
-702,HLS
-703,HLS.js
-704,HMI
-705,HP
-706,HPE
-707,HRM / HCM
-708,HTML
-709,HTML/CSS
-710,HTML/CSS'] ['PostgreSQL
-711,HTML5
-712,HTMX
-713,HTTP
-714,HTTP/2
-715,HTTP2
-716,HTTPS
-717,Hadoop
-718,Halcon
-719,Hapi
-720,Hardhat
-721,Hardware
-722,Hardware Troubleshooting
-723,Havoc
-724,Hazelcast
-725,Hbase
-726,Helm
-727,Hibernate
-728,Hibernate/JPA
-729,Hive
-730,Hook
-731,Hooks
-732,Hub
-733,HubSpot
-734,Hubs
-735,Hugging
-736,Hugging Face Transformers
-737,HuggingFace
-738,HuggingFace Transformers
-739,Hyper-V
-740,Hyperledger
-741,Hyperledger Fabric
-742,I2C
-743,IAM
-744,IAP
-745,IAST
-746,IBM
-747,IBM DB2
-748,ICE
-749,ID
-750,IDEA
-751,IDS/IPS
-752,IDS/IPS/Firewall
-753,IIS
-754,INTERRUPT
-755,IOS
-756,IOT
-757,IPC
-758,IPFS
-759,IPS
-760,ISO
-761,ISO 27001
-762,ISO26262
-763,ISO27001
-764,ISTIO
-765,IT Audit
-766,IT Communication/Translation
-767,IT Governance
-768,IT Support
-769,ITIL
-770,ITIL Foundation
-771,ITSM
-772,IaC
-773,Iceberg
-774,Identity
-775,Illustrator
-776,InVision
-777,Incident Response
-778,Industrial
-779,Industrial Automation
-780,InfluxDB
-781,Information
-782,Information Security
-783,Infrastructure as Code
-784,Injection
-785,Inovance
-786,Insights
-787,Integration
-788,Integration test
-789,IntelliJ
-790,Intellij
-791,Interface
-792,Internet
-793,Intune
-794,Inventor
-795,IoT
-796,IoTCore
-797,Ionic
-798,Isar
-799,Istio
-800,J2EE
-801,JFrog
-802,JIRA
-803,JMeter
-804,JPA
-805,JPA2
-806,JQuery
-807,JS
-808,JSF
-809,JSON
-810,JSON-RPC
-811,JSP
-812,JUnit
-813,JWT
-814,Jakarta
-815,Japanese
-816,Japanese IT Communication
-817,Jasmine
-818,Java
-819,Java Spring-Framework
-820,Java'] ['Elasticsearch
-821,Java'] ['Microservices
-822,Java'] ['PostgreSQL
-823,Java'] ['TensorFlow
-824,JavaEE
-825,JavaFX
-826,JavaScript
-827,JavaScript']
-828,JavaScript'] ['.NET
-829,JavaScript'] ['.NET Core
-830,JavaScript'] ['.NET MVC
-831,JavaScript'] ['ASP.NET
-832,JavaScript'] ['ASP.NET MVC
-833,JavaScript'] ['AWS
-834,JavaScript'] ['Agile
-835,JavaScript'] ['Angular
-836,JavaScript'] ['AngularJS
-837,JavaScript'] ['Apache Spark
-838,JavaScript'] ['Azure
-839,JavaScript'] ['C++
-840,JavaScript'] ['CI/CD
-841,JavaScript'] ['CS-Cart
-842,JavaScript'] ['CodeIgniter
-843,JavaScript'] ['Cucumber
-844,JavaScript'] ['Cypress
-845,JavaScript'] ['Databricks
-846,JavaScript'] ['Docker
-847,JavaScript'] ['ERP
-848,JavaScript'] ['Express JS
-849,JavaScript'] ['FastAPI
-850,JavaScript'] ['Figma
-851,JavaScript'] ['Flask
-852,JavaScript'] ['Flutter
-853,JavaScript'] ['GCP
-854,JavaScript'] ['Git
-855,JavaScript'] ['HTML
-856,JavaScript'] ['HTML/CSS
-857,JavaScript'] ['HTML5
-858,JavaScript'] ['JIRA
-859,JavaScript'] ['Java Spring
-860,JavaScript'] ['Jira
-861,JavaScript'] ['Kubernetes
-862,JavaScript'] ['Laravel
-863,JavaScript'] ['Linux
-864,JavaScript'] ['Magento 2
-865,JavaScript'] ['MySQL
-866,JavaScript'] ['NestJS
-867,JavaScript'] ['Next.js
-868,JavaScript'] ['NextJS
-869,JavaScript'] ['Node.js
-870,JavaScript'] ['Odoo
-871,JavaScript'] ['Oracle
-872,JavaScript'] ['PostgreSQL
-873,JavaScript'] ['Postman
-874,JavaScript'] ['Primefaces
-875,JavaScript'] ['RESTful APIs
-876,JavaScript'] ['React
-877,JavaScript'] ['React Native
-878,JavaScript'] ['Restful APIs
-879,JavaScript'] ['SAP
-880,JavaScript'] ['SAP BTP
-881,JavaScript'] ['SASS
-882,JavaScript'] ['SQL Server
-883,JavaScript'] ['SVN
-884,JavaScript'] ['Salesforce
-885,JavaScript'] ['Selenium
-886,JavaScript'] ['Spring
-887,JavaScript'] ['Spring Boot
-888,JavaScript'] ['Symfony
-889,JavaScript'] ['TensorFlow
-890,JavaScript'] ['UML
-891,JavaScript'] ['Unity
-892,JavaScript'] ['Vue.js
-893,JavaScript'] ['Web3.js
-894,JavaScript'] ['WordPress
-895,Jazz
-896,Jboss
-897,Jenkins
-898,Jest
-899,JetPack
-900,Jetpack
-901,Jetson
-902,Jetty
-903,Jira
-904,Jmeter
-905,Joomla
-906,Jquery
-907,Juniper
-908,Junit
-909,Jupyter
-910,KACE
-911,KVM
-912,Kafka
-913,Kanban
-914,Karate
-915,Karma
-916,Katalon
-917,Kendo
-918,Keras
-919,Keycloak
-920,Keyence
-921,Keyword
-922,Kibana
-923,Koa.js
-924,Korean
-925,Kotlin
-926,Kotlin Multiplatform
-927,Kotlin Multiplatform Mobile
-928,Ktor
-929,Kubeflow
-930,Kubernetes
-931,Kysely
-932,LAN
-933,LEAN
-934,LESS
-935,LIN
-936,LINQ
-937,LLDB
-938,LLM
-939,LLMs
-940,LLamaIndex
-941,LSTM
-942,LWC
-943,Lake
-944,LangChain
-945,LangGraph
-946,Langchain
-947,Langflow
-948,Language
-949,Laravel
-950,Launchpad
-951,Lavarel
-952,Layout
-953,Leadership
-954,Lean Project Management
-955,Learning
-956,Legacy 3-tier architecture
-957,Lerna
-958,Less
-959,Library
-960,Liferay
-961,Lift
-962,Line
-963,Linux
-964,Linux/Unix
-965,Liquid
-966,Lite
-967,Live2D
-968,LiveData
-969,Llama
-970,LlamaIndex
-971,Load
-972,Load/Performance testing
-973,LoadRunner
-974,Logging
-975,Looker
-976,Lora/LoraWAN
-977,Lua
-978,Lua'] ['Cocos2d-x
-979,Lucidchart
-980,Luigi
-981,M70
-982,M700
-983,M850
-984,MCU
-985,MDM
-986,MDVR
-987,MES
-988,MFA
-989,MFC
-990,ML
-991,MLFlow
-992,MLOps
-993,MLflow
-994,MMDetection
-995,MML
-996,MODBUS
-997,MPC
-998,MQ
-999,MQTT
-1000,MS
-1001,MS-SQL
-1002,MSCA
-1003,MSSQL
-1004,MUI
-1005,MVC
-1006,MVC3
-1007,MVC5
-1008,MVI
-1009,MVI Architecture
-1010,MVP
-1011,MVVC
-1012,MVVM
-1013,Mac
-1014,Machine
-1015,Machine Learning
-1016,Machinery
-1017,Magento
-1018,MagicPod
-1019,Maintenance
-1020,Make
-1021,Management
-1022,Manager
-1023,Mantis
-1024,Manual
-1025,Mapbox
-1026,Maps
-1027,MariaDB
-1028,Market research
-1029,MasterCAM
-1030,MasterCam2020
-1031,Mastercam
-1032,Material
-1033,MaterialUI
-1034,Matlab
-1035,Maven
-1036,Max
-1037,Maya
-1038,Meet
-1039,Memcached
-1040,Memory
-1041,Mermaid.js
-1042,Mesh
-1043,Message
-1044,MessageQueue
-1045,Metabase
-1046,MicroStation
-1047,Microcontrollers
-1048,Microfrontend
-1049,Microservices
-1050,Microservices Architecture
-1051,Microsoft
-1052,Microsoft Azure SQL Database
-1053,Microsoft Dynamics 365
-1054,Microsoft Power Apps
-1055,Microsoft SQL Server
-1056,Middleware
-1057,Milvus
-1058,MinIO
-1059,Mining
-1060,Miro
-1061,Mirror
-1062,Mitsu
-1063,Mitsubishi
-1064,MobX
-1065,Mobile
-1066,Mobile Applications
-1067,Mobile Apps
-1068,Mocha
-1069,Mockito
-1070,Mockups
-1071,Modbus
-1072,Modeling
-1073,Models
-1074,Modularization
-1075,Modules
-1076,Monday
-1077,MongoDB
-1078,Mongoose
-1079,Monitor
-1080,Monitoring
-1081,Moodle
-1082,MyBatis
-1083,MySQL
-1084,N8N
-1085,NAC
-1086,NAS
-1087,NDK
-1088,NFC
-1089,NGINX
-1090,NHibernate
-1091,NIST
-1092,NLP
-1093,NPM
-1094,NServiceBus
-1095,NTP
-1096,NUnit
-1097,NX
-1098,Nagios
-1099,Native
-1100,Natural
-1101,Neo4j
-1102,Nessus
-1103,Nest
-1104,Nest.js
-1105,NestJS
-1106,NetSecOps
-1107,NetSuite
-1108,Network
-1109,Networking
-1110,Networks
-1111,Neural
-1112,New
-1113,NewRelic
-1114,Next.js
-1115,NextJS
-1116,NextJs
-1117,Nexus
-1118,Nginx
-1119,NiFi
-1120,Nifi
-1121,No-SQL
-1122,NoSQL
-1123,Node.js
-1124,Node.js'] ['Kubernetes
-1125,Node.js'] ['Microservices
-1126,Node.js'] ['PostgreSQL
-1127,NodeJS
-1128,NodeJS'] ['Microservices
-1129,NodeJs
-1130,Nordic
-1131,Not
-1132,Notebook
-1133,NotebookLM
-1134,Notion
-1135,NumPy
-1136,Nuxt
-1137,Nuxt.js
-1138,NuxtJS
-1139,Nx
-1140,OAuth
-1141,OAuth2
-1142,OBD
-1143,OCR
-1144,ODI
-1145,OData
-1146,OIDC
-1147,OKHTTP
-1148,ONNX
-1149,OOP
-1150,ORM
-1151,OS
-1152,OSINT
-1153,OWASP
-1154,Oauth2
-1155,Object
-1156,Objective
-1157,Objective C
-1158,Objective-C
-1159,Objective-C']
-1160,Objective-C'] ['Agile
-1161,Objective-C'] ['Alamofire
-1162,Objective-C'] ['Git
-1163,Objective-C'] ['UIKit
-1164,Objective-C'] ['Web3.js
-1165,Objective-C'] ['Xcode
-1166,Observable
-1167,Odoo
-1168,Office
-1169,OkHttp
-1170,Omron
-1171,Onesignal
-1172,Onnx
-1173,Open
-1174,OpenAI
-1175,OpenAPI
-1176,OpenAPI Specification
-1177,OpenCV
-1178,OpenEdge
-1179,OpenGL
-1180,OpenID
-1181,OpenSearch
-1182,OpenShift
-1183,OpenStack
-1184,OpenVZ
-1185,Operating
-1186,Opsgenie
-1187,Optimism
-1188,Oracle
-1189,OutSystems
-1190,Outlook
-1191,Outsystems
-1192,P2P
-1193,PAL
-1194,PAM
-1195,PC
-1196,PCB
-1197,PCHunter
-1198,PCI
-1199,PCI DSS
-1200,PCIDSS
-1201,PDB
-1202,PDM
-1203,PGSQL
-1204,PHP
-1205,PHP'] ['CodeIgniter
-1206,PHP'] ['Kubernetes
-1207,PHPUnit
-1208,PI/PO
-1209,PID
-1210,PKI
-1211,PL
-1212,PL/SQL
-1213,PLC
-1214,PLM
-1215,PLSQL
-1216,PMI
-1217,PMP
-1218,PQA
-1219,PRTG
-1220,PTC
-1221,PWM
-1222,PaaS
-1223,Package
-1224,Packer
-1225,Pact
-1226,PaddleOCR
-1227,Painter
-1228,Palo
-1229,Pandas
-1230,Paradigm
-1231,Parcel
-1232,Patterns
-1233,PayPal
-1234,Pen
-1235,Penetration
-1236,Penetration Testing
-1237,Pentaho
-1238,Pentest
-1239,Pentesting
-1240,Perfecto
-1241,Performance
-1242,Perl
-1243,Perplexity
-1244,Persistence
-1245,Phaser
-1246,PhaserJS
-1247,Phoenix
-1248,PhoneGap
-1249,Photo
-1250,Photon
-1251,Photoshop
-1252,Pi
-1253,Pigma
-1254,Pillow
-1255,Pipedream
-1256,Pipeline
-1257,Pipelines
-1258,PixiJS
-1259,Planner
-1260,PlantUML
-1261,Platform
-1262,Playable
-1263,Playwright
-1264,Plus
-1265,Poe
-1266,Policy
-1267,Polyspace
-1268,PostgreSQL
-1269,PostgreSQL'] ['Odoo
-1270,PostgreSql
-1271,Postgres
-1272,Postgresql
-1273,Postman
-1274,Power
-1275,Power Automate
-1276,Power BI
-1277,PowerApps
-1278,PowerBI
-1279,PowerShell
-1280,PowerShell'] ['AWS
-1281,PowerShell'] ['Azure
-1282,PowerShell'] ['Red Team
-1283,PowerShell'] ['Windows 11
-1284,Powerbuilder
-1285,Powermill
-1286,Powershell
-1287,Presale
-1288,Prettier
-1289,PrimeFaces
-1290,Printing
-1291,Prisma
-1292,Pro
-1293,Processing
-1294,Procexp
-1295,Product Design
-1296,Product Management
-1297,Product Metrics
-1298,Product Owner
-1299,Product roadmap
-1300,Product strategy
-1301,Programming
-1302,Progress
-1303,Project
-1304,Project Management
-1305,Prometheus
-1306,Prompt Engineering
-1307,Prosemirror
-1308,Protobuf
-1309,Protocol
-1310,Protocols
-1311,Protopie
-1312,Prototyping
-1313,Protractor
-1314,Provider
-1315,Proxmox
-1316,Proxy
-1317,ProxySQL
-1318,Pub/Sub
-1319,Public Key Infrastructure
-1320,Pulumi
-1321,Puppeteer
-1322,Push Notification
-1323,PyG
-1324,PyQt
-1325,PySpark
-1326,PyTorch
-1327,Pydantic
-1328,Pylon
-1329,Python
-1330,Python'] ['Blockchain
-1331,Python'] ['Kubernetes
-1332,Python'] ['Microservices
-1333,Python'] ['Playwright
-1334,Python'] ['PostgreSQL
-1335,Python'] ['ServiceNow
-1336,Python'] ['TensorFlow
-1337,Pytorch
-1338,QA
-1339,QA QC
-1340,QGIS
-1341,QML
-1342,QTest
-1343,Qase
-1344,Qdrant
-1345,Qlik
-1346,Qt
-1347,Quality
-1348,Quarkus
-1349,Query
-1350,Queue
-1351,Queues
-1352,QuickSight
-1353,R
-1354,RAG
-1355,RCP
-1356,RDBMS
-1357,RDS
-1358,REST
-1359,REST Assured
-1360,REST-assured
-1361,REST/SOAP
-1362,RESTful
-1363,ROS
-1364,RPA
-1365,RS232
-1366,RS485
-1367,RTCP
-1368,RTOS
-1369,RTP
-1370,RTSP
-1371,RTU
-1372,RXSwift
-1373,RabbitMQ
-1374,Radix-UI
-1375,Rails
-1376,Rancher
-1377,Random
-1378,Ranorex
-1379,Rasa
-1380,Rasp
-1381,Raspberry
-1382,React
-1383,React Native
-1384,React-Router
-1385,React.js
-1386,ReactJS
-1387,ReactNative
-1388,Real
-1389,Real-time
-1390,Realm
-1391,Realtime
-1392,Reanimated
-1393,Recognition
-1394,Recoil
-1395,Redhat
-1396,Redis
-1397,Redmine
-1398,Redshift
-1399,Redteam
-1400,Redux
-1401,Redux-Saga
-1402,RegeX
-1403,Regression
-1404,Relational
-1405,Relic
-1406,Report
-1407,Requests
-1408,Reselect
-1409,Responsive
-1410,Responsive Design
-1411,Rest
-1412,RestAssured
-1413,Restful
-1414,Retrofit
-1415,Revenue
-1416,Revit
-1417,Rhapsody
-1418,Risk & Compliance
-1419,Risk Assessment / BCP
-1420,Risk Management
-1421,Rive
-1422,Riverpod
-1423,Roblox
-1424,Roboelectric
-1425,Robot
-1426,Robot Framework
-1427,Robotic Process Automation (RPA)
-1428,Rocket
-1429,RocksDB
-1430,Rollbar
-1431,Rollup
-1432,Room
-1433,Route
-1434,Router
-1435,Ruby
-1436,Ruby on Rails
-1437,Ruby'] ['Express.js
-1438,Ruby'] ['PostgreSQL
-1439,Ruckus
-1440,Rust
-1441,Rust'] ['Microservices
-1442,Rx
-1443,RxJS
-1444,RxJava
-1445,RxSwift
-1446,S3
-1447,SAFe
-1448,SAN
-1449,SAP
-1450,SAP BusinessObjects
-1451,SAP2000
-1452,SAPUI5
-1453,SAS
-1454,SASS
-1455,SASS/SCSS
-1456,SAST
-1457,SCA
-1458,SCADA
-1459,SCM
-1460,SCRUM
-1461,SCSS
-1462,SCTP
-1463,SDK
-1464,SDL
-1465,SDLC
-1466,SEO
-1467,SIEM
-1468,SIP
-1469,SNPE
-1470,SOA
-1471,SOAP
-1472,SOAR
-1473,SOLID
-1474,SOLID Principles
-1475,SOQL'] ['Salesforce
-1476,SPC
-1477,SPI
-1478,SPSS
-1479,SQL
-1480,SQL'] ['ClientTrack
-1481,SQL'] ['Microservices
-1482,SQL'] ['Playwright
-1483,SQL'] ['PostgreSQL
-1484,SQL'] ['Salesforce
-1485,SQL'] ['TensorFlow
-1486,SQLAlchemy
-1487,SQLDelight
-1488,SQLServer
-1489,SQLite
-1490,SRT
-1491,SRTP
-1492,SSIS
-1493,SSO
-1494,STAAD
-1495,STM32
-1496,STUN
-1497,SVN
-1498,SaaS
-1499,Saga
-1500,Salesforce
-1501,Samsung
-1502,Sass
-1503,Scala
-1504,Scikit
-1505,Scikit-learn
-1506,Scratch
-1507,Screaming
-1508,Script
-1509,Scripts
-1510,Scrum
-1511,Search
-1512,Secure
-1513,Security
-1514,Selenium
-1515,Semgrep
-1516,Sensor
-1517,Sentry
-1518,Serenity
-1519,Server
-1520,Server configuration
-1521,Serverless
-1522,Serverless Architecture
-1523,Servers
-1524,Service
-1525,ServiceNow
-1526,Servicenow
-1527,Services
-1528,Serving
-1529,Servlet
-1530,Servlets
-1531,Servo
-1532,Shader/Shader Graph
-1533,ShaderLab
-1534,Shaders
-1535,Shapely
-1536,SharePoint
-1537,Shared
-1538,Sharepoint
-1539,Sheet
-1540,Sheets
-1541,Shell
-1542,Shell'] ['Kubernetes
-1543,Shiftleft
-1544,Shopify
-1545,Siemen
-1546,Siemens
-1547,Sigma
-1548,SignalR
-1549,Sigrid
-1550,Simulink
-1551,Sinon
-1552,Six
-1553,Six sigma
-1554,Sketch
-1555,SketchUp
-1556,Sketchup
-1557,Sklearn
-1558,Slack
-1559,Sliver
-1560,Smart
-1561,Smart contracts
-1562,SnapKit
-1563,Snowflake
-1564,Snyk
-1565,SoCs
-1566,Soap
-1567,SoapUI
-1568,Socket
-1569,Software
-1570,Software Architecture
-1571,Software Development
-1572,Solana
-1573,SolarWinds
-1574,Solarwinds
-1575,SolidCAM
-1576,SolidWorks
-1577,Solidity
-1578,Solidworks
-1579,Solr
-1580,Solution Architecture
-1581,SonarQube
-1582,Sonarqube
-1583,Source
-1584,Spark
-1585,Specflow
-1586,Specified
-1587,Splunk
-1588,Spring
-1589,Spring Boot
-1590,SpringBoot
-1591,SpringMVC
-1592,Stack
-1593,Stakeholder management
-1594,Starlark
-1595,State
-1596,Statistical Analysis
-1597,Stepping
-1598,Storage
-1599,StoreKit
-1600,StoreKit2
-1601,Storm
-1602,Storyboard
-1603,Storybook
-1604,Strategy planning
-1605,Streamlit
-1606,Strike
-1607,Stripe
-1608,Structured
-1609,Strut
-1610,Struts
-1611,Studio
-1612,Studio.NET
-1613,Styled
-1614,Styled-components
-1615,Substance
-1616,Suite
-1617,Supabase
-1618,Svelte
-1619,Swagger
-1620,Swarm
-1621,Swift
-1622,Swift'] ['CocoaTouch
-1623,Swift'] ['Concurrency
-1624,SwiftPM
-1625,SwiftUI
-1626,Swing
-1627,Switch
-1628,Switches
-1629,Sybase
-1630,Symfony
-1631,Synapse
-1632,Syslog
-1633,System
-1634,System Admin
-1635,System Architecture
-1636,Systems
-1637,T-SQL
-1638,T24
-1639,TARA
-1640,TCP/IP
-1641,TCPDump
-1642,TCPView
-1643,TCServer
-1644,TDD
-1645,TFlite
-1646,TIMER
-1647,TLS
-1648,TMĐT
-1649,TOGAF
-1650,TURN
-1651,Table
-1652,Tableau
-1653,Tabnine
-1654,Tabular
-1655,Tailwind
-1656,TailwindCSS
-1657,Talend
-1658,TanStack
-1659,Team
-1660,Team Management
-1661,TeamCity
-1662,Teams
-1663,Technical Writing
-1664,Technology Roadmapping
-1665,Telemetry
-1666,Tenable.io
-1667,Tensor
-1668,TensorFlow
-1669,TensorRT
-1670,Tensorflow
-1671,Terraform
-1672,Terragrunt
-1673,Tesseract
-1674,Test
-1675,Test Driven Development
-1676,TestComplete
-1677,TestFlight
-1678,TestNG
-1679,TestRail
-1680,Testcafe
-1681,Tester
-1682,Testing
-1683,Testlink
-1684,Testrail
-1685,Text-to-SQL
-1686,Textract
-1687,The
-1688,Theia
-1689,Themeleaf
-1690,Thinking
-1691,ThreadX
-1692,Threat
-1693,Three.js
-1694,Thymeleaf
-1695,Ticketing
-1696,Tiktok
-1697,Time
-1698,Tomcat
-1699,Toolchain
-1700,Tools
-1701,Topology
-1702,Tower
-1703,Trac
-1704,Tracing
-1705,Travis CI
-1706,Trello
-1707,TritonServer
-1708,TrustZone
-1709,Turbo
-1710,Turnstile
-1711,Tuxedo
-1712,Twig
-1713,TypeORM
-1714,TypeScript
-1715,TypeScript'] ['.NET
-1716,TypeScript'] ['.NET Core
-1717,TypeScript'] ['API
-1718,TypeScript'] ['AWS
-1719,TypeScript'] ['Angular
-1720,TypeScript'] ['Blockchain
-1721,TypeScript'] ['Cocos
-1722,TypeScript'] ['Django
-1723,TypeScript'] ['Flask
-1724,TypeScript'] ['Flutter
-1725,TypeScript'] ['GCP
-1726,TypeScript'] ['Laravel
-1727,TypeScript'] ['NestJS
-1728,TypeScript'] ['Next.js
-1729,TypeScript'] ['Node.js
-1730,TypeScript'] ['Playwright
-1731,TypeScript'] ['React
-1732,TypeScript'] ['React Native
-1733,TypeScript'] ['Redux
-1734,TypeScript'] ['SQLite
-1735,TypeScript'] ['Selenium
-1736,TypeScript'] ['Shopify
-1737,TypeScript'] ['Spring Boot
-1738,TypeScript'] ['TensorFlow
-1739,TypeScript'] ['Vue.js
-1740,TypeScript'] ['WebGL
-1741,Typeform
-1742,Typography
-1743,UART
-1744,UCS
-1745,UDP
-1746,UDS
-1747,UDSonCAN
-1748,UI
-1749,UI-UX
-1750,UI5
-1751,UIKit
-1752,UML
-1753,UNIX
-1754,UR
-1755,USART
-1756,USB
-1757,UWP
-1758,UX/UI
-1759,Ubuntu
-1760,Ui5
-1761,UiPath
-1762,Unit
-1763,Unit test
-1764,Unity
-1765,Universal
-1766,Unix
-1767,Unix/Linux
-1768,Unreal
-1769,Unreal Engine
-1770,Usability testing
-1771,User
-1772,User Journey Mapping
-1773,User diagram
-1774,User flows
-1775,User story
-1776,UserDefaults
-1777,VB.NET
-1778,VB.Net
-1779,VBA
-1780,VCL
-1781,VLAN
-1782,VMWare
-1783,VMware
-1784,VNPAY
-1785,VPN
-1786,VR
-1787,VR/AR
-1788,VS
-1789,VSCode
-1790,VSTS
-1791,Valgrind
-1792,Vector
-1793,Vercel
-1794,Vericut
-1795,Verilog
-1796,Vert.x
-1797,Vertex
-1798,Vertx
-1799,ViTest
-1800,Video
-1801,Video.js
-1802,Viem
-1803,View
-1804,Virtualization
-1805,Virtuozzo
-1806,Visi
-1807,Visily
-1808,Visio
-1809,Vision
-1810,Visual
-1811,Visual Design
-1812,Visualforce
-1813,Visualization Tools
-1814,Vite
-1815,VoIP
-1816,Vscode
-1817,Vue
-1818,Vue.js
-1819,Vue3
-1820,VueJS
-1821,Vuetify
-1822,Vuex
-1823,W3C
-1824,WAF
-1825,WAN
-1826,WAS
-1827,WCF
-1828,WDIO
-1829,WEB
-1830,WMS
-1831,WPF
-1832,Wagmi
-1833,WalletConnect
-1834,Warehouse
-1835,Warp
-1836,Waterfall
-1837,Waterfall Methodology
-1838,Watermarking
-1839,Weaviate
-1840,Web
-1841,Web API
-1842,Web Applications
-1843,Web3
-1844,Web3.js
-1845,WebAssembly
-1846,WebGL
-1847,WebGPU
-1848,WebRTC
-1849,WebSocket
-1850,WebSockets
-1851,WebSphere
-1852,WebdriverIO
-1853,Webflow
-1854,Webhook
-1855,Webpack
-1856,Webserver
-1857,Webservices
-1858,Websocket
-1859,Websphere
-1860,Weight
-1861,White box testing
-1862,WiFi
-1863,Wifi
-1864,Wildfly
-1865,Win Form Application
-1866,WinForms
-1867,WinUI
-1868,WinUI3
-1869,WindIdea
-1870,Windows
-1871,Windows Server
-1872,Winforms
-1873,Wireframing
-1874,Wireshark
-1875,WooCommerce
-1876,Word
-1877,WordPress
-1878,Wordpress
-1879,Workato
-1880,Workday
-1881,Workflows
-1882,Workplace
-1883,Workspace
-1884,X5
-1885,XCode
-1886,XD
-1887,XDR
-1888,XDebug
-1889,XGBoost
-1890,XGboost
-1891,XML
-1892,XML-RPC
-1893,XPath
-1894,XUnit
-1895,Xcode
-1896,XcodeBuild
-1897,Xen
-1898,YAML
-1899,YARN
-1900,Yarn
-1901,Yaskawa
-1902,Yii
-1903,Yocto
-1904,ZK
-1905,Zabbix
-1906,Zapier
-1907,ZenHub
-1908,Zend
-1909,Zephyr
-1910,Zeplin
-1911,Zigbee
-1912,Zod
-1913,Zoom
-1914,Zustand
-1915,['Automation
-1916,['Blockchain
-1917,['Illustrator
-1918,['Kubernetes
-1919,['Mastercam
-1920,['Playwright
-1921,aaPanel
-1922,analystic
-1923,automation
-1924,axios
-1925,banking
-1926,black
-1927,blockchain
-1928,box
-1929,bug-tracking systems
-1930,cPanel
-1931,chip
-1932,client
-1933,cloud
-1934,cloud-native
-1935,cloud-native architectures
-1936,cocoapods
-1937,containerization
-1938,contract
-1939,core
-1940,cylinder
-1941,data
-1942,data lake/warehouse
-1943,databases
-1944,dbt
-1945,design
-1946,development
-1947,docker
-1948,draw.io
-1949,encryption
-1950,etherCat
-1951,ethers.js
-1952,fetch
-1953,figma
-1954,firebase
-1955,firewall
-1956,firewalls
-1957,framework
-1958,frameworks
-1959,functional
-1960,gRPC
-1961,git
-1962,gitlab
-1963,iOS
-1964,jBOSS
-1965,jBPM
-1966,jQuery
-1967,jUnit
-1968,kotlinx.coroutines
-1969,kubernetes
-1970,lake
-1971,low-code
-1972,mSQL
-1973,macOS
-1974,management
-1975,manual
-1976,mechanisms
-1977,microservice
-1978,motor
-1979,n8n
-1980,network
-1981,no-code
-1982,noSQL
-1983,node.js
-1984,npm
-1985,on
-1986,openCV
-1987,performance
-1988,platform
-1989,platforms
-1990,plugins
-1991,pytest
-1992,regression
-1993,robot
-1994,scikit-learn
-1995,script
-1996,search
-1997,server
-1998,smart
-1999,solutions
-2000,sqlite
-2001,storage
-2002,system
-2003,tRPC
-2004,testing
-2005,tools
-2006,vSAN
-2007,vb.net
-2008,warehouse
-2009,websocket
-2010,wifi
-2011,xCode
-2012,yarn
-2013,zkSync
+64,AWS CLI
+65,AWS CloudFormation
+66,AWS CloudWatch
+67,AWS CodeArtifacts
+68,AWS Cognito
+69,AWS Device Farm
+70,AWS ECR
+71,AWS Glue
+72,AWS IAM Identity Center
+73,AWS IoTCore
+74,AWS Lambda
+75,AWS Networking
+76,AWS QuickSight
+77,AWS RDS
+78,AWS Redshift
+79,AWS S3
+80,Acronis
+81,Active Directory
+82,ActiveMQ
+83,Activiti
+84,AdMob
+85,Admob
+86,Adobe
+87,Adobe Creative Cloud
+88,Adobe Creative Suite
+89,Adobe Forms
+90,Adobe Illustrator
+91,Adobe Photoshop
+92,Adobe Suite
+93,Adobe XD
+94,After Effects
+95,Agile
+96,Agile/Scrum
+97,Airbyte
+98,Airflow
+99,Airtable
+100,Ajax
+101,Alamofire
+102,Alembic
+103,Alerta
+104,Alfresco
+105,Algolia
+106,Algorithms
+107,Amazon
+108,Amazon Aurora
+109,Amazon Bedrock
+110,Amazon CloudWatch
+111,Amazon MQ
+112,Amazon RDS
+113,Amazon Redshift
+114,Amazon SNS/SQS
+115,Amazon Web Services
+116,Android
+117,Android Jetpack
+118,Android NDK
+119,Android SDK
+120,Android Studio
+121,Android studio
+122,Angular
+123,Angular CLI
+124,Angular Universal
+125,Angular.js
+126,AngularJS
+127,AngularJs
+128,Ansible
+129,Ant Design
+130,AntDesign
+131,Antd
+132,Antd design
+133,Anti-DDoS
+134,Anti-Malware/Endpoint Protection
+135,Antivirus
+136,Apache
+137,Apache Airflow
+138,Apache Druid
+139,Apache Flink
+140,Apache HTTP Server
+141,Apache HttpClient
+142,Apache Kafka
+143,Apache Solr
+144,Apache Spark
+145,Apache Tomcat
+146,Apache-Spark
+147,Apex
+148,Apollo
+149,Apollo GraphQL
+150,Apollo Server
+151,App Annie
+152,App Store Optimization
+153,AppDynamics
+154,Appium
+155,Apple Connect
+156,Application Insights
+157,Application Security
+158,Applitools
+159,Arbitrum
+160,ArcGIS Pro
+161,Arduino
+162,Argo CD
+163,ArgoCD
+164,ArtCAM
+165,Artifactory
+166,Aruba
+167,Asana
+168,AssetBundles
+169,Asteria Warp
+170,Asterisk
+171,Asynchronous Programming
+172,Atlassian
+173,Audio
+174,Aura
+175,Aurora PostgreSQL
+176,Auth0
+177,Autify
+178,Auto CAD
+179,Auto Layout
+180,AutoCAD
+181,AutoCad
+182,AutoLayout
+183,Autocad
+184,Autofac
+185,Automated Testing
+186,Automation
+187,Automation Anywhere
+188,Automation Test
+189,Automation Testing
+190,Automation testing
+191,Automotive
+192,Autonomous Driving
+193,Autoruns
+194,Axios
+195,Axure
+196,Azure
+197,Azure AD
+198,Azure Cloud
+199,Azure Data Factory
+200,Azure Data Lake
+201,Azure DevOps
+202,Azure Devops
+203,Azure Event Hubs
+204,Azure Monitor
+205,Azure OpenAI
+206,Azure Pipelines
+207,Azure SQL
+208,Azure Service Bus
+209,Azure Synapse
+210,BFGMiner
+211,BI
+212,BI tools
+213,BIM
+214,BLE
+215,BNB Chain
+216,BPMN
+217,BRD
+218,BSP
+219,BSP Linux
+220,BW/BO
+221,Babel
+222,Backbone JS
+223,Backend Testing
+224,Backlog
+225,Backup
+226,Backup Systems
+227,Balsamiq
+228,Bash
+229,Bash Shell
+230,Beam
+231,Beaver Builder
+232,Behave
+233,Benchmarking
+234,Big Data
+235,Big data
+236,BigCommerce
+237,BigQuery
+238,BitLocker
+239,Bitbucket
+240,Bizagi
+241,Black Box Testing
+242,Black box testing
+243,BlackDuck
+244,BlackDuck Hub
+245,Blazor
+246,Blender
+247,Bloc
+248,Blockchain
+249,BloodHound
+250,Bluetooth
+251,Boomi
+252,Boost
+253,Boot
+254,Bootstrap
+255,Bridge Engineer
+256,BrowserStack
+257,Bubble
+258,Bugzilla
+259,BullMQ
+260,Burp Suite
+261,Business Analysis
+262,Business Intelligence
+263,BytePlus
+264,BytePlus CDN
+265,C
+266,C language
+267,C#
+268,C++
+269,C++ Builder
+270,C/C++
+271,CAD
+272,CAD/CAM
+273,CALS
+274,CAM
+275,CAN
+276,CAN Protocol
+277,CANalyzer
+278,CANoe
+279,CATIA
+280,CCNA
+281,CDN
+282,CDS View
+283,CGMiner
+284,CI/CD
+285,CICD
+286,CISAM
+287,CISSP
+288,CMAKE
+289,CMMI
+290,CMMi
+291,CMS
+292,CMake
+293,CNC
+294,COBIT
+295,COBOL
+296,CPI
+297,CREO
+298,CRM
+299,CS-Cart
+300,CSS
+301,CSS 3
+302,CSS Modules
+303,CSS-in-JS
+304,CSS3
+305,CSV
+306,CUDA
+307,CURL
+308,CWE
+309,Caching mechanisms
+310,Cacti
+311,Cad
+312,Caffe
+313,CakePHP
+314,CameraX
+315,Camunda
+316,Canva
+317,Canva AI
+318,Canvas
+319,CapCut AI
+320,Carthage
+321,Cassandra
+322,Celery
+323,CentOS
+324,Ceph
+325,Chai
+326,Charles
+327,Charles Proxy
+328,ChatGPT
+329,Chatwork
+330,CheckPoint
+331,Chinese
+332,Chopper
+333,Ci/CD
+334,Cimatrol
+335,Cimatron
+336,Circle CI
+337,CircleCI
+338,CircleCi
+339,Cisco
+340,Cisco Secure Endpoint
+341,Cisco UCS
+342,Clean Architecture
+343,Clerk
+344,ClickHouse
+345,ClickUp
+346,Clickhouse
+347,ClientTrack
+348,Cloud
+349,Cloud Computing
+350,Cloud Config
+351,Cloud Firestore
+352,Cloud Foundry
+353,Cloud Functions
+354,Cloud Gateway
+355,Cloud Infrastructure
+356,Cloud Security
+357,Cloud Services
+358,Cloud Storage
+359,Cloud Technologies
+360,Cloud platforms
+361,Cloud-Native
+362,Cloud-native
+363,Cloud-native Architecture
+364,Cloud-native architectures
+365,Cloud-native solutions
+366,CloudFormation
+367,CloudWatch
+368,Cloudflare
+369,Cobalt Strike
+370,CockroachDB
+371,CocoaLumberjack
+372,CocoaPods
+373,CocoaTouch
+374,Cocoapods
+375,Cocos
+376,Cocos Creator
+377,Cocos2d-JS
+378,Cocos2d-x
+379,Cocos2dx
+380,CodeBuild
+381,CodeIgniter
+382,CodePipeline
+383,CodePush
+384,Codelgniter
+385,Combine
+386,Command Line Interface
+387,CompTIA
+388,Compose
+389,Compose Multiplatform
+390,Compose UI
+391,Composer
+392,Computer
+393,Computer Vision
+394,Concurrency
+395,Configuation Management Software
+396,Configuration Manager
+397,Confluence
+398,Confluent
+399,Container
+400,Container Security
+401,Containerization
+402,Containers
+403,Content Distribution Network
+404,Context API
+405,Continuous Delivery
+406,Continuous Delivery/Deployment
+407,Continuous Deployment
+408,Continuous Integration
+409,Core Data
+410,Core Data Services
+411,CoreAnimation
+412,CoreData
+413,CoreML
+414,Corebank T24
+415,Corgi Engine
+416,Coroutine
+417,Coroutines
+418,Cosmos
+419,Coverity
+420,Cpanel
+421,Crashlytics
+422,Cribl
+423,Crypto Algorithms
+424,Cryptocurrency
+425,Cryptography
+426,Crystal Report
+427,Cucumber
+428,CucumberJS
+429,Cyber Security
+430,Cyber Security Analyst
+431,Cyber Security Engineer
+432,Cybersecurity
+433,Cybersecurity Engineering
+434,Cypress
+435,D365
+436,DASH
+437,DASHCAM
+438,DAST
+439,DApps
+440,DB2
+441,DBA
+442,DBT
+443,DBWeaver
+444,DDoS Protection
+445,DGL
+446,DHCP
+447,DL4J
+448,DLMS Protocol
+449,DLP
+450,DMS
+451,DNS
+452,DNS Security
+453,DOORs
+454,DRM
+455,DRP
+456,Dapper
+457,Dart
+458,Data & AI
+459,Data Analysis
+460,Data Bricks
+461,Data Engineer
+462,Data Mining
+463,Data Pipeline
+464,Data Privacy / Compliance
+465,Data Quality Tools
+466,Data Science
+467,Data Security
+468,Data Studio
+469,Data Warehouse
+470,Data Warehousing
+471,Data lake
+472,Data modeling
+473,Data visualization
+474,Data warehouse
+475,Data-driven
+476,DataOps
+477,Database
+478,Database management
+479,Databricks
+480,Datadog
+481,Datastage
+482,Dataverse
+483,Davinci
+484,Dbt
+485,DeFi
+486,Debian
+487,Decentralized Applications
+488,Deep Learning
+489,Dell
+490,Dell Boomi AtomSphere
+491,Delta Lake
+492,Dependency Injection
+493,Design
+494,Design Patterns
+495,Design Systems
+496,Design Thinking
+497,DevExpress
+498,DevExtreme
+499,DevOps
+500,DevOps Azure
+501,DevOps tools
+502,DevSecOps
+503,Dialogflow
+504,Diffusion Models
+505,Digital tokens
+506,DigitalOcean
+507,Dio
+508,DirectAdmin
+509,DirectX
+510,Distributed Systems
+511,Divi
+512,Django
+513,Docker
+514,Docker Compose
+515,Docker Swarm
+516,Domain
+517,Domain-Driven Design
+518,Draw.io
+519,Dremio
+520,Dropshipping
+521,Drupal
+522,DynamoDB
+523,Dynatrace
+524,E-commerce
+525,EDR
+526,EFK
+527,EJB
+528,EKS
+529,ELK
+530,ELK Stack
+531,ELK/Loki
+532,ELT
+533,ELV
+534,ENS
+535,EPP
+536,ERP
+537,ES6
+538,ESLint
+539,ESP-IDF
+540,ESP32
+541,ETAS
+542,ETL
+543,ETL Pentaho
+544,EVM
+545,Eclipse
+546,Eclipse RCP
+547,Edge Computing
+548,ElastiCache
+549,Elastic
+550,Elastic Search
+551,Elastic search
+552,ElasticSearch
+553,Elasticsearch
+554,Electron
+555,Electron.js
+556,ElectronJs
+557,Element Plus
+558,Elementor
+559,Elixir
+560,Email
+561,Email Exchange Server
+562,Embedded
+563,Embedded Android
+564,Embedded Automotive Development
+565,Embedded C
+566,Embedded Linux
+567,Embedded Software
+568,Embedded Systems
+569,Embedded system
+570,Emulate3D
+571,Encryption
+572,Encryption Key Management
+573,End-to-end encryption
+574,Endpoint Central
+575,Endpoint Security
+576,English
+577,Enterprise Architecture
+578,Entity Framework
+579,Entity Framework Core
+580,Entra ID
+581,Enzyme
+582,Epicor
+583,Eplan
+584,Eslint
+585,Espresso
+586,Ether
+587,Ethereum
+588,Ethernet
+589,Ethernet TCP/IP
+590,Ethers.js
+591,Event-Driven Architecture
+592,Event-driven architecture
+593,Excel
+594,Exchange
+595,Exchange Server
+596,Expo
+597,Express
+598,Express JS
+599,Express.js
+600,ExpressJS
+601,ExpressJs
+602,EyeShot
+603,F#
+604,FAISS
+605,FFMPEG
+606,FFmpeg
+607,FME
+608,FOTA
+609,FRS
+610,FW
+611,Facebook
+612,Facial Recognition
+613,Faktory
+614,Fanuc
+615,Fast API
+616,FastAPI
+617,Fastlane
+618,Fiber
+619,Figma
+620,File Management
+621,Fiori
+622,Fiori Elements
+623,FireBase
+624,Firebase
+625,Firebase Analytics
+626,Fireflies
+627,Firestore
+628,Firewall
+629,Firewalls
+630,Firmware
+631,FitNesse
+632,Flash Bootloader
+633,Flask
+634,Flexbox
+635,Flink
+636,Flow
+637,Flutter
+638,Flux
+639,Forguncy
+640,Fortify
+641,Fortigate
+642,Fortinet
+643,Foundation
+644,Foundry
+645,Framework
+646,FreeIPA
+647,FreeRTOS
+648,French
+649,Fullstack
+650,Functional Safety Standards
+651,Functional Testing
+652,Functional specifications
+653,Fusion 360
+654,G Suite
+655,G-code
+656,GA360
+657,GA4
+658,GAN
+659,GCD
+660,GCP
+661,GDB
+662,GIMP
+663,GIT
+664,GPO
+665,GRPC
+666,GStreamer
+667,Game Development
+668,Games
+669,Gatsby
+670,Gcore
+671,Gemma
+672,GenAI
+673,Generative AI
+674,GeoPandas
+675,GeoServer
+676,Geoserver
+677,GetX
+678,Gherkin
+679,Gin
+680,Git
+681,Git Flow
+682,GitHub
+683,GitHub Action
+684,GitHub Actions
+685,GitHub Copilot
+686,GitLab
+687,GitLab CI
+688,GitLab CI/CD
+689,GitOps
+690,Github
+691,Gitlab
+692,Glue
+693,Go
+694,Go Route
+695,Godot
+696,Golang
+697,GoldenGate
+698,Google
+699,Google AI Studio
+700,Google Analytics
+701,Google Analytics 4
+702,Google BigQuery
+703,Google Calendar
+704,Google Chronicle
+705,Google Cloud
+706,Google Cloud Platform
+707,Google Cloud Platform Services
+708,Google Cloud SQL
+709,Google Cloud Vision
+710,Google Drive Realtime API
+711,Google Firebase
+712,Google Keyword Planner
+713,Google Kubernetes Engine
+714,Google Maps
+715,Google Maps API
+716,Google Meet
+717,Google Natural Language API
+718,Google Sheet
+719,Google Sheets
+720,Google Tools
+721,Google Vertex AI
+722,Google Workplace
+723,Google Workspace
+724,GoogleAppScript
+725,Governance
+726,Gradio
+727,Gradle
+728,Grafana
+729,Grafana/Prometheus
+730,Grails
+731,GraphQL
+732,GraphQL APIs
+733,Graphana
+734,Graphical User Interface
+735,Graylog
+736,Groovy
+737,Group Policy
+738,Gulp
+739,HANA Cloud
+740,HAProxy
+741,HBase
+742,HDFS
+743,HFS
+744,HLS
+745,HLS.js
+746,HMI
+747,HP
+748,HPE
+749,HRM / HCM
+750,HTML
+751,HTML/CSS
+752,HTML5
+753,HTMX
+754,HTTP
+755,HTTP client
+756,HTTP/2
+757,HTTP2
+758,HTTPS
+759,Hadoop
+760,Halcon
+761,Hapi
+762,Hardhat
+763,Hardware Maintenance
+764,Hardware Troubleshooting
+765,Hardware-software Integration
+766,Havoc
+767,Hazelcast
+768,Hbase
+769,Helm
+770,Helm Charts
+771,Hibernate
+772,Hibernate/JPA
+773,Hive
+774,Hooks
+775,HubSpot
+776,Hugging Face
+777,Hugging Face Transformers
+778,HuggingFace
+779,HuggingFace Transformers
+780,Hyper-V
+781,HyperMill
+782,Hyperledger
+783,Hyperledger Fabric
+784,I2C
+785,IAM
+786,IAP
+787,IAST
+788,IBM DB2
+789,IBM WebSphere
+790,ICE
+791,IDS/IPS
+792,IDS/IPS/Firewall
+793,IIS
+794,INTERRUPT
+795,IOS
+796,IOT
+797,IPC
+798,IPFS
+799,IPS
+800,ISO
+801,ISO 27001
+802,ISO 9001
+803,ISO26262
+804,ISO27001
+805,ISTIO
+806,IT Audit
+807,IT Communication/Translation
+808,IT Governance
+809,IT Support
+810,ITIL
+811,ITIL Foundation
+812,ITSM
+813,IaC
+814,Iceberg
+815,Illustrator
+816,InVision
+817,Incident Response
+818,Industrial Automation
+819,Industrial Printing
+820,InfluxDB
+821,Information Security
+822,Infrastructure as Code
+823,Inovance
+824,Integration test
+825,IntelliJ IDEA
+826,Intellij
+827,Internet Gateway
+828,Intune
+829,Inventor
+830,IoT
+831,Ionic
+832,Isar
+833,Istio
+834,J2EE
+835,JFrog
+836,JIRA
+837,JIRA Service Management
+838,JMeter
+839,JPA
+840,JPA2
+841,JQuery
+842,JSF
+843,JSON
+844,JSON-RPC
+845,JSP
+846,JSP Servlet
+847,JUnit
+848,JWT
+849,Jakarta EE
+850,Japanese
+851,Japanese IT Communication
+852,Jasmine
+853,Java
+854,Java EE
+855,Java Persistence API
+856,Java Spring
+857,Java Spring Boot
+858,Java Spring-Framework
+859,Java Swing
+860,JavaEE
+861,JavaFX
+862,JavaScript
+863,Jazz
+864,Jboss
+865,Jboss AS
+866,Jenkins
+867,Jest
+868,JetPack
+869,Jetpack
+870,Jetpack Component
+871,Jetpack Compose
+872,Jetson
+873,Jetson Devices
+874,Jetty
+875,Jira
+876,Jira Service Management
+877,Jmeter
+878,Joomla
+879,Jquery
+880,Juniper
+881,Junit
+882,Jupyter Notebook
+883,KACE
+884,KVM
+885,Kafka
+886,Kanban
+887,Karate
+888,Karma
+889,Katalon
+890,Katalon Studio
+891,Kendo UI
+892,Keras
+893,Keycloak
+894,Keyence
+895,Kibana
+896,Koa.js
+897,Korean
+898,Kotlin
+899,Kotlin Multiplatform
+900,Kotlin Multiplatform Mobile
+901,Ktor
+902,Kubeflow
+903,Kubernetes
+904,Kysely
+905,LAN
+906,LEAN
+907,LESS
+908,LIN
+909,LINQ
+910,LLDB
+911,LLM
+912,LLMs
+913,LLamaIndex
+914,LSTM
+915,LWC
+916,LangChain
+917,LangGraph
+918,Langchain
+919,Langflow
+920,Laravel
+921,Laravel Dusk
+922,Lavarel
+923,Leadership
+924,Lean Project Management
+925,Learning
+926,Legacy 3-tier architecture
+927,Lerna
+928,Less
+929,Liferay
+930,Lift Control
+931,Linux
+932,Linux/Unix
+933,Liquid
+934,Live2D
+935,LiveData
+936,Llama 2
+937,LlamaIndex
+938,Load Balancer
+939,Load Balancing
+940,Load/Performance testing
+941,LoadRunner
+942,Logging
+943,Looker
+944,Looker Studio
+945,Lora/LoraWAN
+946,Lua
+947,Lua Script
+948,Lucidchart
+949,Luigi
+950,M700
+951,M850
+952,MATLAB/Simulink
+953,MCU
+954,MDM
+955,MDVR
+956,MES
+957,MFA
+958,MFC
+959,ML
+960,MLFlow
+961,MLOps
+962,MLflow
+963,MMDetection
+964,MML
+965,MODBUS RTU
+966,MPC
+967,MQTT
+968,MS Office
+969,MS SQL
+970,MS SQL Server
+971,MS-SQL
+972,MSCA
+973,MSSQL
+974,MSSQL Server
+975,MUI
+976,MVC
+977,MVC Framework
+978,MVC3
+979,MVC5
+980,MVI
+981,MVI Architecture
+982,MVP
+983,MVVC
+984,MVVM
+985,Mac
+986,Mac OS
+987,Machine
+988,Machine Learning
+989,Machinery
+990,Magento
+991,Magento 2
+992,MagicPod
+993,Make
+994,Mantis
+995,Manual Testing
+996,Mapbox
+997,MariaDB
+998,Market research
+999,MasterCAM
+1000,MasterCam
+1001,MasterCam2020
+1002,Mastercam
+1003,Mastercam 2018
+1004,Mastercam 2021
+1005,Mastercam X5
+1006,Material
+1007,Material Design
+1008,Material Design UI
+1009,Material UI
+1010,MaterialUI
+1011,Matlab
+1012,Maven
+1013,Maya
+1014,Memcached
+1015,Mermaid.js
+1016,Message Queue
+1017,Message Queues
+1018,MessageQueue
+1019,Metabase
+1020,MicroStation
+1021,Microcontrollers
+1022,Microfrontend
+1023,Microservices
+1024,Microservices Architecture
+1025,Microsoft
+1026,Microsoft 365
+1027,Microsoft Azure
+1028,Microsoft Azure DevOps
+1029,Microsoft Azure SQL Database
+1030,Microsoft Dynamics
+1031,Microsoft Dynamics 365
+1032,Microsoft Endpoint Manager
+1033,Microsoft Entra ID
+1034,Microsoft Excel
+1035,Microsoft Exchange Server
+1036,Microsoft Fabric
+1037,Microsoft Intune
+1038,Microsoft Office
+1039,Microsoft Office 365
+1040,Microsoft Outlook
+1041,Microsoft Power Apps
+1042,Microsoft Power Automate
+1043,Microsoft Power BI
+1044,Microsoft Project
+1045,Microsoft SQL
+1046,Microsoft SQL Server
+1047,Microsoft Teams
+1048,Microsoft Visual Studio
+1049,Microsoft Word
+1050,Milvus
+1051,MinIO
+1052,Miro
+1053,Mirror
+1054,Mitsu
+1055,Mitsubishi
+1056,Mitsubishi M70
+1057,MobX
+1058,Mobile
+1059,Mobile App
+1060,Mobile Applications
+1061,Mobile Apps
+1062,Mocha
+1063,Mockito
+1064,Mockups
+1065,Modbus
+1066,Modularization
+1067,Monday
+1068,MongoDB
+1069,Mongoose
+1070,Monitoring
+1071,Monitoring Tools
+1072,Moodle
+1073,MyBatis
+1074,MySQL
+1075,N8N
+1076,NAC
+1077,NAS
+1078,NFC
+1079,NGINX
+1080,NHibernate
+1081,NIST
+1082,NIST CSF/RMF
+1083,NLP
+1084,NPM
+1085,NServiceBus
+1086,NTP
+1087,NUnit
+1088,NX
+1089,Nagios
+1090,Native
+1091,Natural Language Processing
+1092,Neo4j
+1093,Nessus
+1094,Nest JS
+1095,Nest.js
+1096,NestJS
+1097,NetSecOps
+1098,NetSuite
+1099,Network
+1100,Network Access Control
+1101,Network Security
+1102,Network Systems
+1103,Network Topology
+1104,Networking
+1105,Neural Network
+1106,New Relic
+1107,NewRelic
+1108,Next.js
+1109,NextJS
+1110,NextJs
+1111,Nexus
+1112,Nginx
+1113,NiFi
+1114,Nifi
+1115,No-SQL
+1116,NoSQL
+1117,Node.js
+1118,NodeJS
+1119,NodeJs
+1120,Nordic chip
+1121,Not Specified
+1122,NotebookLM
+1123,Notion
+1124,Notion API
+1125,NumPy
+1126,Nuxt
+1127,Nuxt.js
+1128,NuxtJS
+1129,Nx
+1130,OAuth
+1131,OAuth 2.0
+1132,OAuth2
+1133,OBD
+1134,OCR
+1135,ODI
+1136,OData
+1137,OData Gateway
+1138,OIDC
+1139,OKHTTP
+1140,ONNX
+1141,OOP
+1142,ORM
+1143,OSINT
+1144,OWASP
+1145,Oauth2
+1146,Objective C
+1147,Objective-C
+1148,Observable
+1149,Odoo
+1150,Office 365
+1151,OkHttp
+1152,Omron
+1153,Onesignal
+1154,Onnx
+1155,Open API
+1156,Open Source
+1157,Open Telemetry
+1158,OpenAI
+1159,OpenAI API
+1160,OpenAI APIs
+1161,OpenAPI
+1162,OpenAPI Specification
+1163,OpenCV
+1164,OpenGL
+1165,OpenID Connect
+1166,OpenSearch
+1167,OpenShift
+1168,OpenStack
+1169,OpenVZ
+1170,Operating Systems
+1171,Opsgenie
+1172,Optimism
+1173,Oracle
+1174,Oracle 11g
+1175,Oracle Apex
+1176,Oracle BI
+1177,Oracle DB
+1178,Oracle Database
+1179,Oracle EBS
+1180,Oracle Flexcube
+1181,Oracle PL/SQL
+1182,Oracle SQL Developer
+1183,Oracle Warehouse Builder
+1184,OutSystems
+1185,Outsystems
+1186,P2P
+1187,PAL
+1188,PAM
+1189,PC Tools
+1190,PCB
+1191,PCHunter
+1192,PCI DSS
+1193,PCIDSS
+1194,PDB
+1195,PDM
+1196,PGSQL
+1197,PHP
+1198,PHP Laravel
+1199,PHPUnit
+1200,PI/PO
+1201,PID
+1202,PKI
+1203,PL SQL
+1204,PL/SQL
+1205,PLC
+1206,PLM
+1207,PLSQL
+1208,PMI
+1209,PMP
+1210,PQA
+1211,PRTG
+1212,PTC
+1213,PWM
+1214,PaaS
+1215,Packer
+1216,Pact
+1217,PaddleOCR
+1218,Palo Alto Networks
+1219,Pandas
+1220,Parcel
+1221,PayPal
+1222,Pen Testing
+1223,Penetration Testing
+1224,Pentaho
+1225,Pentest
+1226,Pentesting
+1227,Perfecto
+1228,Performance Testing
+1229,Performance testing
+1230,Perl
+1231,Perplexity
+1232,Phaser
+1233,PhaserJS
+1234,Phoenix
+1235,PhoneGap
+1236,Photo
+1237,Photon
+1238,Photoshop
+1239,Pigma
+1240,Pillow
+1241,Pipedream
+1242,PixiJS
+1243,PlantUML
+1244,Playable Ads
+1245,Playwright
+1246,Poe
+1247,Polyspace
+1248,PostgreSQL
+1249,PostgreSql
+1250,Postgres
+1251,Postgresql
+1252,Postman
+1253,Power
+1254,Power App
+1255,Power Apps
+1256,Power Automate
+1257,Power BI
+1258,Power Platform
+1259,PowerApps
+1260,PowerBI
+1261,PowerShell
+1262,Powerbuilder
+1263,Powermill
+1264,Powershell
+1265,Presale
+1266,Prettier
+1267,PrimeFaces
+1268,Primefaces
+1269,Prisma
+1270,Procexp
+1271,Product Design
+1272,Product Management
+1273,Product Metrics
+1274,Product Owner
+1275,Product roadmap
+1276,Product strategy
+1277,Progress ABL/4GL
+1278,Progress Database
+1279,Progress OpenEdge
+1280,Project Management
+1281,Prometheus
+1282,Prompt Engineering
+1283,Prosemirror
+1284,Protobuf
+1285,Protopie
+1286,Prototyping
+1287,Protractor
+1288,Provider
+1289,Proxmox
+1290,ProxySQL
+1291,Pub/Sub
+1292,Public Key Infrastructure
+1293,Pulumi
+1294,Puppeteer
+1295,Push Notification
+1296,PyG
+1297,PyQt
+1298,PySpark
+1299,PyTorch
+1300,PyTorch Mobile
+1301,Pydantic
+1302,Pylon
+1303,Python
+1304,Pytorch
+1305,QA
+1306,QA QC
+1307,QGIS
+1308,QML
+1309,QTest
+1310,Qase
+1311,Qdrant
+1312,Qlik
+1313,Qt
+1314,Quality Assurance
+1315,Quarkus
+1316,R
+1317,RAG
+1318,RDBMS
+1319,RDS
+1320,REST
+1321,REST API
+1322,REST APIs
+1323,REST Assured
+1324,REST-assured
+1325,REST/SOAP APIs
+1326,REST/SOAP-based web services
+1327,RESTful
+1328,RESTful API
+1329,RESTful APIs
+1330,RESTful Web Services
+1331,ROS
+1332,RPA
+1333,RS232
+1334,RS485
+1335,RTCP
+1336,RTOS
+1337,RTP
+1338,RTSP
+1339,RXSwift
+1340,RabbitMQ
+1341,Radix-UI
+1342,Rails
+1343,Rancher
+1344,Random Forest
+1345,Ranorex
+1346,Rasa
+1347,Rasp Pi
+1348,Raspberry Pi
+1349,React
+1350,React Hook
+1351,React Hook Form
+1352,React Hooks
+1353,React Native
+1354,React Testing Library
+1355,React-Router
+1356,React.js
+1357,ReactJS
+1358,ReactNative
+1359,Real Time Operating System
+1360,Real-time Computing
+1361,Realm
+1362,Realtime Database
+1363,Realtime OS
+1364,Reanimated
+1365,Recoil
+1366,Red Team
+1367,Redhat
+1368,Redis
+1369,Redmine
+1370,Redshift
+1371,Redteam
+1372,Redux
+1373,Redux Saga
+1374,Redux-Saga
+1375,RegeX
+1376,Regression Testing
+1377,Relational databases
+1378,Requests
+1379,Reselect
+1380,Responsive Design
+1381,Responsive Web Design
+1382,Rest API
+1383,Rest APIs
+1384,Rest Assured
+1385,RestAssured
+1386,Restful
+1387,Restful API
+1388,Restful APIs
+1389,Restful Api
+1390,Retrofit
+1391,Revenue Cat
+1392,Revit
+1393,Rhapsody
+1394,Risk & Compliance
+1395,Risk Assessment / BCP
+1396,Risk Management
+1397,Rive
+1398,Riverpod
+1399,Roblox
+1400,Roboelectric
+1401,Robot
+1402,Robot Framework
+1403,Robot framework
+1404,Robotic Process Automation (RPA)
+1405,Rocket
+1406,RocksDB
+1407,Rollbar
+1408,Rollup
+1409,Room
+1410,Router
+1411,Ruby
+1412,Ruby on Rails
+1413,Ruckus
+1414,Rust
+1415,Rx
+1416,RxJS
+1417,RxJava
+1418,RxSwift
+1419,S3
+1420,SAFe Agile
+1421,SAN Storage
+1422,SAP
+1423,SAP AI Business Services
+1424,SAP AI Core
+1425,SAP AI Launchpad
+1426,SAP BTP
+1427,SAP Business Object
+1428,SAP BusinessObjects
+1429,SAP CAP
+1430,SAP Cloud Application Programming Model
+1431,SAP FIORI
+1432,SAP UI5
+1433,SAP Workflows
+1434,SAP2000
+1435,SAPUI5
+1436,SAS
+1437,SASS
+1438,SASS/SCSS
+1439,SAST
+1440,SCA
+1441,SCADA
+1442,SCM
+1443,SCRUM
+1444,SCSS
+1445,SCTP
+1446,SDL
+1447,SDLC
+1448,SDLC Management Tools
+1449,SEO
+1450,SIEM
+1451,SIP
+1452,SNPE
+1453,SOA
+1454,SOAP
+1455,SOAR
+1456,SOLID
+1457,SOLID Principles
+1458,SOQL
+1459,SPC
+1460,SPI
+1461,SPSS
+1462,SQL
+1463,SQL Developer
+1464,SQL Server
+1465,SQL server
+1466,SQLAlchemy
+1467,SQLDelight
+1468,SQLServer
+1469,SQLite
+1470,SRT
+1471,SRTP
+1472,SSIS
+1473,SSO
+1474,STAAD Pro
+1475,STM32
+1476,STUN
+1477,SVN
+1478,SaaS
+1479,Salesforce
+1480,Salesforce APIs
+1481,Salesforce Commerce Cloud
+1482,Salesforce Platform Developer 1
+1483,Samsung Galaxy Framework
+1484,Sass
+1485,Scala
+1486,Scikit
+1487,Scikit-learn
+1488,Scratch
+1489,Screaming Frog
+1490,Scrum
+1491,Search Console
+1492,Secure Boot
+1493,Secure Hardware
+1494,Security
+1495,Security Protocols
+1496,Security Testing
+1497,Security testing
+1498,Selenium
+1499,Semgrep
+1500,Sensor Tower
+1501,Sentry
+1502,Serenity BDD
+1503,Server
+1504,Server configuration
+1505,Serverless
+1506,Serverless Architecture
+1507,Servers
+1508,Service Mesh
+1509,ServiceNow
+1510,Servicenow
+1511,Servlet
+1512,Servlets
+1513,Servo
+1514,Servo motor
+1515,Shader/Shader Graph
+1516,ShaderLab
+1517,Shaders
+1518,Shapely
+1519,SharePoint
+1520,Shared Memory
+1521,Sharepoint
+1522,Shell
+1523,Shell Script
+1524,Shell Scripts
+1525,Shell script
+1526,Shiftleft Testing
+1527,Shopify
+1528,Shopify Liquid
+1529,Siemen
+1530,Siemens
+1531,Siemens NX
+1532,SignalR
+1533,Sigrid
+1534,Simulink
+1535,Sinon
+1536,Six Sigma
+1537,Six sigma
+1538,Sketch
+1539,SketchUp
+1540,Sketchup
+1541,Sklearn
+1542,Slack
+1543,Sliver
+1544,Smart Contracts
+1545,Smart contracts
+1546,SnapKit
+1547,Snowflake
+1548,Snyk Code
+1549,SoCs
+1550,Soap UI
+1551,SoapUI
+1552,Socket
+1553,Socket Programming
+1554,Software Architecture
+1555,Software Development
+1556,Solana
+1557,Solana Web3.js
+1558,SolarWinds
+1559,Solarwinds
+1560,SolidCAM
+1561,SolidWorks
+1562,Solidity
+1563,Solidwork
+1564,Solidworks
+1565,Solr
+1566,Solution Architecture
+1567,SonarQube
+1568,Sonarqube
+1569,Spark
+1570,Specflow
+1571,Splunk
+1572,Spring
+1573,Spring Boot
+1574,Spring Cloud
+1575,Spring Framework
+1576,Spring MVC
+1577,Spring Security
+1578,Spring framework
+1579,SpringBoot
+1580,SpringMVC
+1581,Stakeholder management
+1582,Starlark
+1583,State management
+1584,Statistical Analysis
+1585,Stepping motor
+1586,Storage
+1587,StoreKit
+1588,StoreKit2
+1589,Storm
+1590,Storyboard
+1591,Storybook
+1592,Strategy planning
+1593,Streamlit
+1594,Stripe
+1595,Structured Cabling
+1596,Strut
+1597,Struts
+1598,Styled Components
+1599,Styled-components
+1600,Substance Painter
+1601,Supabase
+1602,Svelte
+1603,Swagger
+1604,Swift
+1605,Swift Package Manager
+1606,SwiftPM
+1607,SwiftUI
+1608,Switch
+1609,Switches
+1610,Sybase
+1611,Symfony
+1612,Synapse
+1613,Syslog
+1614,System Admin
+1615,System Architecture
+1616,System Center Configuration Manager
+1617,System Monitoring Tools
+1618,T-SQL
+1619,TARA
+1620,TCP/IP
+1621,TCPDump
+1622,TCPView
+1623,TCServer
+1624,TDD
+1625,TFlite
+1626,TIMER
+1627,TLS
+1628,TMĐT
+1629,TOGAF
+1630,TURN
+1631,Tableau
+1632,Tabnine
+1633,Tabular
+1634,Tailwind
+1635,Tailwind CSS
+1636,TailwindCSS
+1637,Talend
+1638,TanStack Query
+1639,TanStack Router
+1640,TanStack Table
+1641,Team City
+1642,Team Management
+1643,TeamCity
+1644,Technical Writing
+1645,Technology Roadmapping
+1646,Temenos Infinity
+1647,Tenable.io
+1648,Tensor Core
+1649,TensorFlow
+1650,TensorFlow Lite
+1651,TensorFlow Serving
+1652,TensorRT
+1653,Tensorflow
+1654,Terraform
+1655,Terragrunt
+1656,Tesseract
+1657,Test Complete
+1658,Test Driven Development
+1659,TestComplete
+1660,TestFlight
+1661,TestNG
+1662,TestRail
+1663,Testcafe
+1664,Tester
+1665,Testlink
+1666,Testrail
+1667,Text-to-SQL
+1668,Textract
+1669,The Graph
+1670,Theia
+1671,Themeleaf
+1672,ThreadX
+1673,Threat Modeling
+1674,Three.js
+1675,Thymeleaf
+1676,Ticketing Systems
+1677,Tiktok
+1678,Tomcat
+1679,Trac
+1680,Tracing
+1681,Travis CI
+1682,Trello
+1683,TritonServer
+1684,TrustZone
+1685,Turbo
+1686,Turnstile Control
+1687,Tuxedo Middleware
+1688,Twig
+1689,TypeORM
+1690,TypeScript
+1691,Typeform
+1692,Typography
+1693,UART
+1694,UDP
+1695,UDS
+1696,UDSonCAN
+1697,UI Testing
+1698,UI frameworks
+1699,UI testing
+1700,UI-UX
+1701,UIKit
+1702,UML
+1703,UNIX
+1704,UR robot
+1705,USART
+1706,USB
+1707,UWP
+1708,UX/UI
+1709,Ubuntu
+1710,Ui5
+1711,UiPath
+1712,Unit Testing
+1713,Unit test
+1714,Unit testing
+1715,Unity
+1716,Unity 2D
+1717,Unity 3D
+1718,Unix
+1719,Unix Shell
+1720,Unix/Linux
+1721,Unreal
+1722,Unreal Engine
+1723,Usability testing
+1724,User Journey Mapping
+1725,User diagram
+1726,User flows
+1727,User story
+1728,UserDefaults
+1729,VB.NET
+1730,VB.Net
+1731,VBA
+1732,VCL
+1733,VLAN
+1734,VMWare ESXi
+1735,VMware
+1736,VMware ESXi
+1737,VNPAY
+1738,VPN
+1739,VR
+1740,VR/AR
+1741,VS Code
+1742,VSCode
+1743,VSTS
+1744,Valgrind
+1745,Vector
+1746,Vector CANoe
+1747,Vercel
+1748,Vericut
+1749,Verilog
+1750,Vert.x
+1751,Vertex AI
+1752,Vertx
+1753,ViTest
+1754,Video
+1755,Video.js
+1756,Viem
+1757,Virtualization
+1758,Virtuozzo
+1759,Visi
+1760,Visily
+1761,Visio
+1762,Vision
+1763,Visual Basic
+1764,Visual C++
+1765,Visual Design
+1766,Visual Paradigm
+1767,Visual Studio
+1768,Visual Studio 2019
+1769,Visual Studio 2022
+1770,Visual Studio Code
+1771,Visual Studio.NET
+1772,Visualforce
+1773,Visualization Tools
+1774,Vite
+1775,VoIP
+1776,Vscode
+1777,Vue
+1778,Vue Router
+1779,Vue.js
+1780,Vue3
+1781,VueJS
+1782,Vuetify
+1783,Vuex
+1784,W3C Blockchain
+1785,WAF
+1786,WAN
+1787,WAS
+1788,WCF
+1789,WDIO
+1790,WEB
+1791,WEB API
+1792,WMS
+1793,WPF
+1794,Wagmi
+1795,WalletConnect
+1796,Waterfall
+1797,Waterfall Methodology
+1798,Watermarking
+1799,Weaviate
+1800,Web
+1801,Web API
+1802,Web APIs
+1803,Web Application
+1804,Web Applications
+1805,Web Service
+1806,Web Services
+1807,Web System
+1808,Web/Mobile Testing
+1809,Web3
+1810,Web3.js
+1811,WebAssembly
+1812,WebGL
+1813,WebGPU
+1814,WebRTC
+1815,WebSocket
+1816,WebSockets
+1817,WebdriverIO
+1818,Webflow
+1819,Webhook
+1820,Webpack
+1821,Webserver
+1822,Webservices
+1823,Websocket
+1824,Websphere
+1825,Weight & Biases
+1826,White box testing
+1827,WiFi
+1828,Wifi
+1829,Wildfly
+1830,Win Form Application
+1831,WinForms
+1832,WinUI
+1833,WinUI3
+1834,WindIdea
+1835,Windows
+1836,Windows 10
+1837,Windows 11
+1838,Windows API
+1839,Windows Event Forwarder
+1840,Windows Form
+1841,Windows Forms
+1842,Windows IIS
+1843,Windows SDK
+1844,Windows Server
+1845,Windows Services
+1846,Winforms
+1847,Wireframing
+1848,Wireshark
+1849,WooCommerce
+1850,WordPress
+1851,Wordpress
+1852,Workato
+1853,Workday
+1854,XCode
+1855,XDR
+1856,XDebug
+1857,XGBoost
+1858,XGboost
+1859,XML
+1860,XML-RPC
+1861,XPath
+1862,XUnit
+1863,Xcode
+1864,XcodeBuild
+1865,Xen Citrix
+1866,YAML
+1867,YARN
+1868,Yarn
+1869,Yaskawa
+1870,Yii
+1871,Yii 2
+1872,Yocto
+1873,Yocto Build System
+1874,ZK
+1875,Zabbix
+1876,Zapier
+1877,ZenHub
+1878,Zend
+1879,Zephyr
+1880,Zeplin
+1881,Zigbee
+1882,Zod
+1883,Zoom
+1884,Zustand
+1885,aaPanel
+1886,analystic
+1887,automation testing
+1888,axios
+1889,black box testing
+1890,blockchain
+1891,bug-tracking systems
+1892,cPanel
+1893,cloud
+1894,cloud computing
+1895,cloud solutions
+1896,cloud-native
+1897,cloud-native architectures
+1898,cocoapods
+1899,containerization
+1900,core banking
+1901,data lake/warehouse
+1902,dbt
+1903,docker
+1904,draw.io
+1905,etherCat
+1906,ethers.js
+1907,fetch
+1908,figma
+1909,firebase
+1910,firewall
+1911,firewalls
+1912,functional testing
+1913,gRPC
+1914,git
+1915,gitlab
+1916,iOS
+1917,jBOSS
+1918,jBPM
+1919,jQuery
+1920,jUnit
+1921,kotlinx.coroutines
+1922,kubernetes
+1923,low-code
+1924,mSQL
+1925,macOS
+1926,manual testing
+1927,microservice
+1928,n8n
+1929,network
+1930,no-code
+1931,noSQL
+1932,node.js
+1933,npm
+1934,openCV
+1935,performance testing
+1936,pytest
+1937,regression testing
+1938,robot
+1939,robot cylinder
+1940,scikit-learn
+1941,server
+1942,smart contract
+1943,sqlite
+1944,storage
+1945,tRPC
+1946,vSAN
+1947,vb.net
+1948,websocket
+1949,wifi
+1950,xCode
+1951,yarn
+1952,zkSync

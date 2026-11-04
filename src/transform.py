@@ -244,24 +244,21 @@ def parse_and_impute_skills(skills_val, text_fallback: str = "") -> str:
 
     if pd.notna(skills_val):
         s_val = str(skills_val).strip()
-        # Dạng list Python literal: "['Java', 'Python']"
-        if s_val.startswith("[") and s_val.endswith("]"):
-            try:
-                parsed = ast.literal_eval(s_val)
-                if isinstance(parsed, list):
-                    for item in parsed:
-                        item_clean = str(item).strip()
-                        if item_clean:
-                            extracted.add(item_clean)
-            except (ValueError, SyntaxError):
-                pass
+
+        # Dạng list/chuỗi chứa dấu nháy ngoặc vuông: "['.NET'] ['Microservices']"
+        quoted = re.findall(r"['\"]([^'\"\n\[\]]+)['\"]", s_val)
+        if quoted:
+            for item in quoted:
+                item_clean = item.strip().strip("[]'\"").strip()
+                if item_clean and item_clean != "[]":
+                    extracted.add(item_clean)
 
         # Nếu chưa trích xuất được -> tách theo dấu phẩy/chấm phẩy/pipe/space
         if not extracted:
             parts = re.split(r'[,;|\n]+', s_val)
             for p in parts:
-                p_clean = p.strip()
-                if p_clean and len(p_clean) < 30:
+                p_clean = p.strip().strip("[]'\"").strip()
+                if p_clean and p_clean != "[]" and len(p_clean) < 30:
                     words = p_clean.split()
                     if len(words) > 1 and all(w in TECH_KEYWORDS or len(w) <= 12 for w in words):
                         for w in words:

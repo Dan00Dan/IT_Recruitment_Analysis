@@ -202,7 +202,7 @@ Data Warehouse được xây dựng trên SQLite và các bảng dữ liệu CSV
 | fact_job_skills | Liên kết giữa tin tuyển dụng và kỹ năng |
 
 ### Sơ đồ tổng quan
-
+'''
                   ┌──────────────┐
                   │   DIM_DATE   │
                   └──────┬───────┘
@@ -215,6 +215,7 @@ Data Warehouse được xây dựng trên SQLite và các bảng dữ liệu CSV
    │ DIM_LEVEL  ├─────┘          └─────┤ DIM_COMPANY  │
    └────────────┘                      └──────────────┘
 
+'''
                    ┌─────────────────┐
                    │  FACT_JOB_      │  ┌──────────────┐
                    │    SKILLS       ├──┤  DIM_SKILL   │

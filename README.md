@@ -203,19 +203,23 @@ Data Warehouse được xây dựng trên SQLite và các bảng dữ liệu CSV
 
 ### Sơ đồ tổng quan
 
-```text
-                 DIM_DATE
-                    |
-DIM_CITY ---- FACT_JOB_POSTINGS ---- DIM_ROLE
-                    |
-DIM_LEVEL --------- |
-                    |
-DIM_COMPANY ------- |
+                  ┌──────────────┐
+                  │   DIM_DATE   │
+                  └──────┬───────┘
+                         │
+   ┌────────────┐  ┌─────┴──────────┐  ┌──────────────┐
+   │  DIM_CITY  ├──┤ FACT_JOB_      ├──┤  DIM_ROLE    │
+   └────────────┘  │   POSTINGS     │  └──────────────┘
+                   │ (4.207 dòng)   │
+   ┌────────────┐  └──┬──────────┬──┘  ┌──────────────┐
+   │ DIM_LEVEL  ├─────┘          └─────┤ DIM_COMPANY  │
+   └────────────┘                      └──────────────┘
 
-                 FACT_JOB_SKILLS
-                    |
-                 DIM_SKILL
-```
+                   ┌─────────────────┐
+                   │  FACT_JOB_      │  ┌──────────────┐
+                   │    SKILLS       ├──┤  DIM_SKILL   │
+                   │ (25.791 dòng)   │  │ (3.104 kn)   │
+                   └─────────────────┘  └──────────────┘
 
 ---
 

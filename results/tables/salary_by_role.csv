@@ -1,13 +1,13 @@
-﻿,role_name,luong_trung_vi,so_tin_cong_khai
-0,Security / Network,50.8,3
-1,BA / PM / Product,38.1,33
-2,DevOps / Cloud / System,38.1,46
-3,Backend Developer,38.1,164
-4,Fullstack Developer,33.0,80
-5,QA / QC / Tester,31.8,45
-6,Data / AI / Machine Learning,30.0,47
-7,Frontend Developer,29.2,43
-8,Mobile Developer,29.2,49
-9,Software Engineer (Chung),25.0,41
-10,Embedded / IoT,24.0,15
-11,Other IT Roles,22.05,68
+﻿role,job_count,median_salary,mean_salary,min_salary,max_salary
+Security / Network,3,50.8,48.699999999999996,44.5,50.8
+BA / PM / Product,33,38.1,42.81515151515152,16.0,82.5
+DevOps / Cloud / System,46,38.1,40.278260869565216,4.0,75.0
+Backend Developer,164,38.1,39.93536585365853,1.2,107.9
+Fullstack Developer,80,33.0,40.04375,13.5,110.0
+QA / QC / Tester,45,31.8,33.14666666666666,2.0,77.5
+Data / AI / Machine Learning,47,30.0,57.52765957446809,7.5,1081.2
+Frontend Developer,43,29.2,32.63720930232558,11.0,76.2
+Mobile Developer,49,29.2,34.88775510204081,1.8,127.0
+Software Engineer (Chung),41,25.0,30.431707317073172,2.0,139.7
+Embedded / IoT,15,24.0,28.946666666666665,4.0,63.5
+Other IT Roles,68,22.05,39.92058823529412,3.0,865.0

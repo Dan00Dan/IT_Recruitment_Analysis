@@ -1,27 +1,18 @@
-# Môi trường ảo Python
-.venv/
-venv/
-ENV/
-env/
-
-# Bytecode Python
+﻿# Python cache
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
 
-# IDE & Editor
-.vscode/
-.idea/
-*.swp
-*.swo
+# Virtual environments
+.venv/
+venv/
+env/
 
-# Data Warehouse (SQLite - tái tạo bằng pipeline)
-data/warehouse/*.db
+# Environment and secrets
+.env
+.streamlit/secrets.toml
 
-# Hệ điều hành
+# System files
 Thumbs.db
 Desktop.ini
 .DS_Store

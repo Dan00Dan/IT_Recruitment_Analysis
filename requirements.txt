@@ -1,18 +1,3 @@
-# Thu vien xu ly va phan tich du lieu
+﻿streamlit>=1.40.0
 pandas>=2.0.0
-numpy>=1.24.0
-
-# Thu vien truc quan hoa du lieu
-matplotlib>=3.7.0
-seaborn>=0.12.0
 plotly>=5.15.0
-
-# Xu ly tap tin Excel
-openpyxl>=3.1.0
-
-# Moi truong Jupyter Notebook
-jupyter>=1.0.0
-ipykernel>=6.20.0
-
-# Xu ly van ban va bieu thuc chinh quy
-regex>=2023.0.0

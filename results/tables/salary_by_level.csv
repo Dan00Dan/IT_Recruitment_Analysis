@@ -1,7 +1,7 @@
-﻿,level_name,luong_trung_vi,so_tin_cong_khai
-0,Lead / Manager,40.6,201
-1,Senior,40.0,97
-2,Không xác định,35.6,31
-3,Intern / Fresher,28.549999999999997,44
-4,Middle,27.5,175
-5,Junior,17.0,86
+﻿level,job_count,median_salary,mean_salary,min_salary,max_salary
+Lead / Manager,201,40.6,45.85920398009951,7.5,110.0
+Senior,97,40.0,44.18659793814433,17.5,116.4
+Không xác định,31,35.6,34.94516129032258,9.0,70.0
+Intern / Fresher,44,28.549999999999997,33.425000000000004,1.2,127.0
+Middle,175,27.5,29.909714285714283,11.0,139.7
+Junior,86,17.0,41.598837209302324,10.0,1081.2

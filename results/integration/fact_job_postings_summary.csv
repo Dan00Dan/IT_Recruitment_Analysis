@@ -1,0 +1,13 @@
+﻿Column,Data Type,Non-null Values,Unique Values
+job_id,int64,4208,4208
+date_id,int64,4208,49
+city_id,int64,4208,11
+role_id,int64,4208,12
+level_id,int64,4208,6
+company_id,int64,4208,1754
+salary_min,float64,547,63
+salary_max,float64,623,82
+salary_avg,float64,634,130
+exp_years_min,float64,3617,24
+is_negotiable,object,4207,2
+source,str,4208,4

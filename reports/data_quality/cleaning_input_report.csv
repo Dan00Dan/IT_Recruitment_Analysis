@@ -1,0 +1,5 @@
+﻿Dataset,Records,Columns,Duplicates,Missing Values
+ITViec_data.csv,1159,10,15,0
+TopCV_jobs.csv,616,7,42,168
+job_descriptions.csv,3101,11,0,0
+vietjobs_sample.csv,5,18,0,8

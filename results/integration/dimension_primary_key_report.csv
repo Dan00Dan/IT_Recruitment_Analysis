@@ -1,0 +1,7 @@
+﻿Dimension,Primary Key,Null Keys,Duplicate Keys,Unique
+dim_date,date_id,0,0,True
+dim_city,city_id,0,0,True
+dim_role,role_id,0,0,True
+dim_level,level_id,0,0,True
+dim_company,company_id,0,0,True
+dim_skill,skill_id,0,0,True

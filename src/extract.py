@@ -16,6 +16,7 @@ def extract_all(raw_dir: str) -> dict[str, pd.DataFrame]:
         "ITViec":           "ITViec_data.csv",
         "TopCV":            "TopCV_jobs.csv",
         "JobDescriptions":  "job_descriptions.csv",
+        "VietnamWorks":     "vietnamworks_jobs.csv",
     }
 
     dataframes = {}

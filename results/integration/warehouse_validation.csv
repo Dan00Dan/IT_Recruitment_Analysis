@@ -1,0 +1,9 @@
+﻿Table,Exists,Has Records,Has Columns,Duplicate Rows,Missing Values
+dim_date,True,True,True,0,0
+dim_city,True,True,True,0,0
+dim_role,True,True,True,0,0
+dim_level,True,True,True,0,0
+dim_company,True,True,True,0,0
+dim_skill,True,True,True,0,0
+fact_job_postings,True,True,True,0,11412
+fact_job_skills,True,True,True,0,22142

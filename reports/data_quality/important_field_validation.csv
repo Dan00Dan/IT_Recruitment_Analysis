@@ -1,0 +1,14 @@
+﻿Field,Exists,Missing Values,Unique Values
+job_title,True,0,3680
+company,True,0,1755
+city,True,0,11
+role_category,True,0,12
+job_level,True,0,6
+exp_years_min,True,590,24
+salary_min,True,3660,63
+salary_max,True,3584,82
+salary_avg,True,3573,130
+is_negotiable,True,0,2
+skills_list,True,354,3416
+source,True,0,3
+post_date,True,0,50

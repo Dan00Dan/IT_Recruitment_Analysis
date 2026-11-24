@@ -1,0 +1,10 @@
+﻿Fact Table,Dimension Table,Foreign Key,Non-null Values,Null Values,Unique Values
+fact_job_postings,dim_date,date_id,4208,0,49
+fact_job_postings,dim_city,city_id,4208,0,11
+fact_job_postings,dim_role,role_id,4208,0,12
+fact_job_postings,dim_level,level_id,4208,0,6
+fact_job_postings,dim_company,company_id,4208,0,1754
+fact_job_skills,dim_date,date_id,24175,0,49
+fact_job_skills,dim_city,city_id,24175,0,11
+fact_job_skills,dim_role,role_id,24175,0,12
+fact_job_skills,dim_skill,skill_id,24175,0,1952

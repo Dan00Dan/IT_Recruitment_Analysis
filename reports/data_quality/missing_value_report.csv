@@ -1,0 +1,47 @@
+﻿Dataset,Column,Missing Count,Missing Rate (%),Non-missing Count
+ITViec,job_names,0,0.0,1159
+ITViec,company_names,0,0.0,1159
+ITViec,salaries,0,0.0,1159
+ITViec,position_names,0,0.0,1159
+ITViec,kind_jobs,0,0.0,1159
+ITViec,array_skills,0,0.0,1159
+ITViec,locate_names,0,0.0,1159
+ITViec,exp_skills,0,0.0,1159
+ITViec,domain_arr,0,0.0,1159
+ITViec,post_dates_formatted,0,0.0,1159
+Job Descriptions,title,0,0.0,3101
+Job Descriptions,company,0,0.0,3101
+Job Descriptions,company_image_url,0,0.0,3101
+Job Descriptions,location,0,0.0,3101
+Job Descriptions,description,0,0.0,3101
+Job Descriptions,site,0,0.0,3101
+Job Descriptions,job_url,0,0.0,3101
+Job Descriptions,it_role_type,0,0.0,3101
+Job Descriptions,main_programming_languages,0,0.0,3101
+Job Descriptions,key_technologies,0,0.0,3101
+Job Descriptions,city,0,0.0,3101
+TopCV,skills,168,27.27272727272727,448
+TopCV,title,0,0.0,616
+TopCV,company,0,0.0,616
+TopCV,salary,0,0.0,616
+TopCV,location,0,0.0,616
+TopCV,level,0,0.0,616
+TopCV,source,0,0.0,616
+VietJobs,languages_required,5,100.0,0
+VietJobs,technical_skills,3,60.0,2
+VietJobs,job_title,0,0.0,5
+VietJobs,location,0,0.0,5
+VietJobs,country,0,0.0,5
+VietJobs,qualifications,0,0.0,5
+VietJobs,soft_skills,0,0.0,5
+VietJobs,experience_required,0,0.0,5
+VietJobs,salary,0,0.0,5
+VietJobs,contract_type,0,0.0,5
+VietJobs,working_hours,0,0.0,5
+VietJobs,benefits,0,0.0,5
+VietJobs,description,0,0.0,5
+VietJobs,requirements_text,0,0.0,5
+VietJobs,category,0,0.0,5
+VietJobs,salary_min,0,0.0,5
+VietJobs,salary_max,0,0.0,5
+VietJobs,salary_avg,0,0.0,5

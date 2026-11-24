@@ -1,0 +1,85 @@
+﻿Dataset,Column,Unique Values,Most Frequent Value,Most Frequent Count
+ITViec,job_names,1127,"Mobile Developer (React Native, iOS, Android)",3
+ITViec,company_names,509,MB Bank,31
+ITViec,salaries,189,You'll love it,744
+ITViec,position_names,74,Backend Developer,213
+ITViec,kind_jobs,3,At office,905
+ITViec,array_skills,1113,"['JavaScript', 'TypeScript', 'React Native', 'NodeJS']",3
+ITViec,locate_names,549,"Tòa nhà MB, số 18 Lê Văn Lương, Cau Giay, Ha Noi",30
+ITViec,exp_skills,1125,"1. Trình độ & kinh nghiệm:
+Tốt nghiệp đại học các chuyên ngành Khoa học dữ liệu/Khoa học máy tính/CNTT /Toán học ứng dụng/Điện tử viễn thông hoặc liên quan.
+Ưu tiên ứng viên từ ĐH CN - ĐH QG HNI, ĐHBK Hà Nội, Học viện Bưu chính viễn thông và các trường kỹ thuật uy tín.
+Tiếng Anh TOEIC ≥ 650
+2. Kinh nghiệm phát triển phần mềm và xây dựng chính sách
+Có kiến thức về các Lĩnh vực tri thức của Quản lý dữ liệu là một lợi thế: Bảo mật dữ liệu, Chất lượng dữ liệu, Siêu dữ liệu, Dữ liệu chủ và dữ liệu tham chiếu, Lưu trữ và vận hành…
+Kinh nghiệm >= 2 năm với một trong các vai trò Trưởng sản phẩm/Giải pháp/ Lập trình các hệ thống CNTT (ưu tiên các ứng viên có thời gian làm việc thực tế tại Viettel)
+Có kỹ năng xây dựng các văn bản quản lý (Quy định, tiêu chuẩn, quy trình, hướng dẫn) là một lợi thế
+3. Kiến thức chuyên môn cần có
+Có kiến thức về ít nhất 1 ngôn ngữ lập trình được sử dụng trong Tập đoàn.
+Có kiến thức về các quy trình phát triển phần mềm.
+Có kiến thức về các loại CSDL (RDBMS, Graph Databases, NoSQL Products,...)
+Có kỹ năng sử dụng SQL
+Có kiến thức, kinh nghiệm sử dụng một trong các framework, thư viện lưu trữ, xử lý dữ liệu lớn (Hadoop, Spark, Kafka, Nifi) là một lợi thế
+Có kiến thức về thiết kế, tổ chức dữ liệu trong các hệ thống Kho dữ liệu - DWH (snowflake schema, star schema, ...) là một lợi thế
+Có kiến thức về cách thiết kế Data Model theo hướng tiếp cận của Kimball và Inmon là một lợi thế
+Có kiến thức về thiết kế, tổ chức luồng xử lý dữ liệu (batch processing, stream procesing, ...) là một lợi thế",2
+ITViec,domain_arr,303,['IT Services and IT Consulting'],158
+ITViec,post_dates_formatted,175,01/11/2025 11:06,22
+TopCV,title,533,Tuyển DevOps Engineer,13
+TopCV,company,154,CÔNG TY TNHH ACWORKS VIỆT NAM,44
+TopCV,salary,143,Thoả thuận,289
+TopCV,location,26,Hà Nội,373
+TopCV,skills,335,Azure CI/CD Git PostgreSQL,13
+TopCV,level,8,2 năm,161
+TopCV,source,1,TopCV,616
+Job Descriptions,title,2126,Java Developer,45
+Job Descriptions,company,1332,FPT Software,37
+Job Descriptions,company_image_url,1400,https://www.topcv.vn/v4/image/normal-company/logo_default.png,60
+Job Descriptions,location,816,Hà Nội,629
+Job Descriptions,description,3060,"We are a fast-growing SaaS company in the EduTech space, operating mainly in Singapore, Vietnam, and Malaysia. With almost 2000 schools as customers, our mission is to revolutionize early childhood education through technology and provide innovative solutions to our customers. With a team of 60 talented individuals, we are committed to transforming the way education is delivered in the Southeast Asian region and beyond.
+
+What you will be doing:
+
+- Develop full-stack services in Typescript for in our existing application
+- R&D novel and ingenious solutions to creating enhanced user experiences tailored to a multitude of global regions
+- Continuously enhance the app with the latest code-improving methodologies available
+- Use modern DevOps tools and automate everything with Docker and our Kubernetes clusters
+
+Your Skills And Experience
+
+Must have:
+
+- Deep expertise in Typescript, Vue and MySQL
+- Containers are first class in your apps
+- Understanding of MVC design pattern
+- Familiar with a wide range of performance optimization solutions
+- Strong understanding of vanilla front-end technologies, such as JavaScript, HTML5, and CSS3
+- Sound coding practices with tools such as git, unit testing, CI/CD, service oriented architecture
+- Linux confidence
+- Solid understanding of information security",3
+Job Descriptions,site,3,TopCV,1133
+Job Descriptions,job_url,3101,https://itviec.com/it-jobs/02-senior-data-engineer-home-credit-vietnam-1901?lab_feature=preview_jd_page,1
+Job Descriptions,it_role_type,329,Backend Developer,552
+Job Descriptions,main_programming_languages,631,[],334
+Job Descriptions,key_technologies,2421,[],223
+Job Descriptions,city,23,Hà Nội,1390
+VietJobs,job_title,5,Chuyên Gia Đánh Giá ISO 22000–HACCP–VIETGAP,1
+VietJobs,location,4,hồ chí minh,2
+VietJobs,country,1,Việt Nam,5
+VietJobs,qualifications,5,"['Cao đẳng trở lên các chuyên ngành về Nông nghiệp như Nông học, kỹ thuật cây trồng, bảo vệ thực vật, khoa học đất hoặc các ngành khác liên quan']",1
+VietJobs,technical_skills,2,"['HACCP', 'ISO 22000', 'VietGAP', 'GLOBAL GAP']",1
+VietJobs,soft_skills,5,"['Chăm chỉ', 'Có tinh thần trách nhiệm cao']",1
+VietJobs,experience_required,3,1 năm,2
+VietJobs,salary,5,12.0 - 15.0 triệu,1
+VietJobs,contract_type,1,Toàn thời gian,5
+VietJobs,working_hours,5,Làm việc theo ca,1
+VietJobs,benefits,5,"['Chế độ phụ cấp công trình', 'Hưởng đầy đủ các chế độ BHXH, BHYT, BHTN theo quy định', 'Tăng ca và thưởng lễ/Tết theo quy định của luật lao động', 'Môi trường làm việc chuyên nghiệp, có cơ hội thăng tiến']",1
+VietJobs,description,5,"- Vận hành hằng ngày các công trình được giao trong địa bàn TP HCM (cũ), 3 công trình/ ngày
+- Vận hành bàn giao ngắn ngày (7-15 ngày luân phiên đổi người) đối với các công trình thi công tại Tây Ninh, Bình Dương, Long An,...
+- Công tác vận hành gồm có: châm hoá chất, test nhanh thông số vận hành, kiểm tra máy móc thiết bị, hệ thống tủ điện, vệ sinh khu vực HTXLNT, bảo trì định kỳ thiết bị, ghi chép Nhật ký vận hành và lập Biên bản nghiệm thu hàng tháng
+- Hỗ trợ phòng vận hành xử lý sự cố phát sinh (nếu có)",1
+VietJobs,requirements_text,5,"- Tốt nghiệp cao đẳng, đại học chuyên ngành môi trường, cơ khí, điện
+- Kinh nghiệm: 1 năm hoặc cao hơn, lương trả theo năng lực và số năm kinh nghiệm
+- Có sức khoẻ tốt, nhiệt tình, chịu khó trong công việc, trung thực",1
+VietJobs,category,1,nông_nghiệp_năng_lượng_môi_trường,5
+VietJobs,salary_avg,4,10 triệu,2

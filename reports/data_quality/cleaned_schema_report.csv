@@ -1,0 +1,15 @@
+﻿Column,Data Type,Non-null Count,Missing Count,Unique Values
+job_id,int64,4207,0,4207
+job_title,str,4207,0,3680
+company,str,4207,0,1755
+city,str,4207,0,11
+role_category,str,4207,0,12
+job_level,str,4207,0,6
+exp_years_min,float64,3617,590,24
+salary_min,float64,547,3660,63
+salary_max,float64,623,3584,82
+salary_avg,float64,634,3573,130
+is_negotiable,bool,4207,0,2
+skills_list,str,3853,354,3416
+source,str,4207,0,3
+post_date,str,4207,0,50

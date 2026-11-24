@@ -342,6 +342,43 @@ def _transform_topcv(df_raw: pd.DataFrame) -> pd.DataFrame:
     ]
 
 
+def _transform_vietnamworks(df_raw: pd.DataFrame) -> pd.DataFrame:
+    """Bi?n ??i v? chu?n h?a d? li?u VietnamWorks."""
+    df = df_raw.drop_duplicates().copy()
+    df = df[df["job_title"].fillna("").apply(is_it_job)].copy()
+
+    # Kh?ng t? suy di?n m?c l??ng t? salary_text ch?a r? ??nh d?ng.
+    df["salary_min"] = np.nan
+    df["salary_max"] = np.nan
+    df["salary_avg"] = np.nan
+    df["is_negotiable"] = np.nan
+
+    df["city"] = df["city"].apply(standardize_city)
+    df["role_category"] = [classify_role(t) for t in df["job_title"]]
+
+    exp = [
+        extract_experience_and_level(t, level_text=l)
+        for t, l in zip(df["job_title"], df["job_level"])
+    ]
+    df["exp_years_min"] = [e[0] for e in exp]
+    df["job_level"] = [e[1] for e in exp]
+
+    df["skills_list"] = [
+        parse_and_impute_skills(sk, title)
+        for sk, title in zip(df["skills"], df["job_title"])
+    ]
+    df["source"] = "VietnamWorks"
+    df["post_date"] = pd.to_datetime(
+        df["created_at"], errors="coerce"
+    ).dt.strftime("%Y-%m-%d")
+
+    return df.rename(columns={"job_title": "job_title", "company_name": "company"})[
+        ["job_title", "company", "city", "role_category", "job_level", "exp_years_min",
+         "salary_min", "salary_max", "salary_avg", "is_negotiable", "skills_list",
+         "source", "post_date"]
+    ]
+
+
 def _transform_job_descriptions(df_raw: pd.DataFrame) -> pd.DataFrame:
     """Biến đổi và chuẩn hóa dữ liệu job_descriptions."""
     df = df_raw.drop_duplicates().copy()
@@ -386,6 +423,7 @@ def transform_all(raw_dataframes: dict[str, pd.DataFrame]) -> pd.DataFrame:
         "ITViec":          _transform_itviec,
         "TopCV":           _transform_topcv,
         "JobDescriptions": _transform_job_descriptions,
+        "VietnamWorks":     _transform_vietnamworks,
     }
 
     for source_name, transform_fn in transform_map.items():

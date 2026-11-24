@@ -1,0 +1,15 @@
+﻿Field,Data Type,Description,Missing Values,Unique Values
+job_id,int64,Thuộc tính trong dữ liệu tuyển dụng IT,0,4207
+job_title,str,Tiêu đề vị trí tuyển dụng,0,3680
+company,str,Tên doanh nghiệp tuyển dụng,0,1755
+city,str,Tỉnh hoặc thành phố làm việc,0,11
+role_category,str,Nhóm chuyên môn IT đã chuẩn hóa,0,12
+job_level,str,Cấp bậc nghề nghiệp,0,6
+exp_years_min,float64,Số năm kinh nghiệm tối thiểu,590,24
+salary_min,float64,"Mức lương tối thiểu, triệu VNĐ/tháng",3660,63
+salary_max,float64,"Mức lương tối đa, triệu VNĐ/tháng",3584,82
+salary_avg,float64,Mức lương trung bình ước tính,3573,130
+is_negotiable,bool,Trạng thái lương thỏa thuận,0,2
+skills_list,str,Danh sách kỹ năng công nghệ,354,3416
+source,str,Nguồn dữ liệu tuyển dụng,0,3
+post_date,str,Ngày đăng tin tuyển dụng,0,50

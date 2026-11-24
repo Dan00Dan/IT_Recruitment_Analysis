@@ -1,0 +1,7 @@
+﻿Column,Data Type,Non-null Values,Unique Values
+job_id,int64,24175,3854
+skill_id,int64,24175,1952
+date_id,int64,24175,49
+city_id,int64,24175,11
+role_id,int64,24175,12
+salary_avg,float64,2033,116

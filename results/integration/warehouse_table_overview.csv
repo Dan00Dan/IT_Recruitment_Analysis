@@ -1,0 +1,9 @@
+﻿Table,Type,Rows,Columns,Missing Values,Duplicate Rows
+dim_date,Dimension,374,8,0,0
+dim_city,Dimension,12,2,0,0
+dim_role,Dimension,13,2,0,0
+dim_level,Dimension,7,2,0,0
+dim_company,Dimension,1755,2,0,0
+dim_skill,Dimension,1952,2,0,0
+fact_job_postings,Fact,4208,12,11412,0
+fact_job_skills,Fact,24175,6,22142,0
